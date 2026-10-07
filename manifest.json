@@ -1,0 +1,60 @@
+{
+  "archive_sha256": "47ead0992116c8e5bc760b89229c2a1103f0e785033cbca1fbbb72e4472e6254",
+  "archive_bytes": 41387061,
+  "parts": [
+    {
+      "path": "preview.zip.part00",
+      "bytes": 5000000,
+      "sha256": "68ac96a93deb159d59d3799a6ce2c425d4b6104ecdf86f355ba39c9bd270afc7",
+      "git_sha": "07c776166808d6fdc03fc70da750f0526dc00272"
+    },
+    {
+      "path": "preview.zip.part01",
+      "bytes": 5000000,
+      "sha256": "4c9f7e970410acf6857aea72ffce5643dce289bf10244780e241445355fefc26",
+      "git_sha": "30f9c3253794947a5d45a30008c5e068e9a71421"
+    },
+    {
+      "path": "preview.zip.part02",
+      "bytes": 5000000,
+      "sha256": "8975a490300c5aade1371396ffdb163cba12c861e03da90ffa154777dedd6ad5",
+      "git_sha": "b49e268c6f556d83c67e9220c7944a7f1b799981"
+    },
+    {
+      "path": "preview.zip.part03",
+      "bytes": 5000000,
+      "sha256": "d1a987ba03f70eab650e18b31499c9a3107a84dd3eb7bd6b823f2c51974c09f9",
+      "git_sha": "334dbfbdb7bb53a03086e1f2ad07bac1cc26e4d5"
+    },
+    {
+      "path": "preview.zip.part04",
+      "bytes": 5000000,
+      "sha256": "36db868af81cc87d40f6991cb81317ae0238e0f19a2f6a84ae28131cf1949cf9",
+      "git_sha": "2e221c42c59d077292afc18b9eb71f5b9b1f1d2a"
+    },
+    {
+      "path": "preview.zip.part05",
+      "bytes": 5000000,
+      "sha256": "e468cc6b96d388553d59ca2b5acfddd7d404826da14056230d989f54d8309dab",
+      "git_sha": "dbfdb214483851045c61bf795c81da7eb5647b81"
+    },
+    {
+      "path": "preview.zip.part06",
+      "bytes": 5000000,
+      "sha256": "bdb8eb0da6d2d65d9c3c7312fb39f8110b801f30362dacb62e86cfec054d2e7c",
+      "git_sha": "043040a22ce9e10848b32706cf2c3d89696b7ce7"
+    },
+    {
+      "path": "preview.zip.part07",
+      "bytes": 5000000,
+      "sha256": "3213ab76a51e407923948ad6fd78167e8f96869c8e9288af3eee56a364d23054",
+      "git_sha": "fe42141861746b3b2c162eae91c1ba930bc9e71c"
+    },
+    {
+      "path": "preview.zip.part08",
+      "bytes": 1387061,
+      "sha256": "d5d7b6990dac0bc311a7f945641c3f63b64073030e2380f4abf123948d564ee8",
+      "git_sha": "3465f1d585ef6e4660bba10545eeceb8ae587b36"
+    }
+  ]
+}
