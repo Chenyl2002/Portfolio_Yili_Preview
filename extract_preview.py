@@ -21,6 +21,7 @@ BASELINE_ARCHIVE_SHA256 = "47ead0992116c8e5bc760b89229c2a1103f0e785033cbca1fbbb7
 BASELINE_COMMIT = "93b16facda9ed4abc903ba749b4e88e4f8ab7afd"
 MAX_FILES = 5000
 MAX_BYTES = 150_000_000
+DELTA_PART_BYTES = 8 * 1024 * 1024
 HASH = re.compile(r"[0-9a-f]{64}\Z")
 FORBIDDEN_COMPONENTS = {".git", ".github", ".aws", ".codex", "node_modules", "CNAME"}
 FORBIDDEN_FILENAMES = {"credentials", "credentials.json", "id_rsa", "id_ed25519", "npmrc", ".npmrc"}
@@ -147,12 +148,60 @@ def load_baseline(root):
     return archive
 
 
+def load_delta(root, info):
+    """Read exactly one schema-1 delta representation, validating before extraction."""
+    require(isinstance(info, dict), "Invalid delta metadata")
+    common = {"bytes", "sha256", "file_count"}
+    require(set(info) in (common | {"path"}, common | {"parts"}), "Ambiguous or invalid delta representation")
+    require(type(info["bytes"]) is int and 0 < info["bytes"] <= MAX_BYTES, "Invalid delta total size")
+    require(isinstance(info["sha256"], str) and HASH.fullmatch(info["sha256"]), "Invalid delta checksum")
+    require(type(info["file_count"]) is int and 0 <= info["file_count"] <= MAX_FILES, "Invalid delta file count")
+    actual_parts = {p.name for p in root.glob("preview-delta.zip.part*")}
+    if "path" in info:
+        require(info["path"] == "preview-delta.zip", "Unexpected delta path")
+        require(not actual_parts, "Unexpected delta parts for single archive")
+        return read_regular(root, info["path"], info["bytes"], info["sha256"])
+    require(not (root / "preview-delta.zip").exists() and not (root / "preview-delta.zip").is_symlink(), "Unexpected single delta alongside parts")
+    parts = info["parts"]
+    count = (info["bytes"] + DELTA_PART_BYTES - 1) // DELTA_PART_BYTES
+    require(isinstance(parts, list) and len(parts) == count, "Delta part count mismatch")
+    expected_names = {f"preview-delta.zip.part{i:02d}" for i in range(count)}
+    require(actual_parts == expected_names, "Delta part set mismatch")
+    chunks = []
+    for i, part in enumerate(parts):
+        require(isinstance(part, dict) and set(part) == {"path", "bytes", "sha256"}, "Invalid delta part metadata")
+        require(part["path"] == f"preview-delta.zip.part{i:02d}", "Invalid delta part path/order")
+        expected_size = min(DELTA_PART_BYTES, info["bytes"] - i * DELTA_PART_BYTES)
+        require(type(part["bytes"]) is int and part["bytes"] == expected_size, "Invalid delta part size")
+        path = root / part["path"]
+        require(path.is_file() and not path.is_symlink(), "Missing or nonregular delta part")
+        require(path.stat().st_size == expected_size, "Delta part actual size mismatch")
+        chunks.append(read_regular(root, part["path"], part["bytes"], part["sha256"]))
+    data = b"".join(chunks)
+    require(len(data) == info["bytes"] and digest(data) == info["sha256"], "Combined delta archive mismatch")
+    return data
+
+
+def load_release_json(raw):
+    def unique_object(pairs):
+        result = {}
+        for key, value in pairs:
+            require(key not in result, "Duplicate JSON key: " + key)
+            result[key] = value
+        return result
+    def invalid_constant(value):
+        raise ValueError("Non-finite JSON constant: " + value)
+    release = json.loads(raw, object_pairs_hook=unique_object, parse_constant=invalid_constant)
+    require(isinstance(release, dict), "Invalid release manifest")
+    return release
+
+
 def main(root=ROOT):
     root = Path(root).resolve()
     destination = root / "dist"
     require(not destination.exists() and not destination.is_symlink(), "dist must not exist; run from a clean checkout")
-    release = json.loads(read_regular(root, "release-manifest.json"))
-    require(release["schema"] == 1 and release["baseline_commit"] == BASELINE_COMMIT, "Unsupported release baseline")
+    release = load_release_json(read_regular(root, "release-manifest.json"))
+    require(type(release.get("schema")) is int and release["schema"] == 1 and release["baseline_commit"] == BASELINE_COMMIT, "Unsupported release baseline")
     require(release["baseline_archive_sha256"] == BASELINE_ARCHIVE_SHA256, "Unexpected release baseline checksum")
     baseline = load_baseline(root)
     baseline_files = records_by_path(archive_records(baseline))
@@ -169,8 +218,7 @@ def main(root=ROOT):
     require(release["removed"] == removed, "Deletion set mismatch")
     changes = sorted(name for name, record in expected.items() if baseline_files.get(name) != record)
     delta_info = release["delta"]
-    require(delta_info["path"] == "preview-delta.zip", "Unexpected delta path")
-    delta_bytes = read_regular(root, delta_info["path"], delta_info["bytes"], delta_info["sha256"])
+    delta_bytes = load_delta(root, delta_info)
     delta = validated_archive(delta_bytes)
     changed_records = archive_records(delta)
     require(changed_records == [expected[name] for name in changes], "Delta file set/content mismatch")

@@ -2,14 +2,35 @@
   "baseline_archive_sha256": "47ead0992116c8e5bc760b89229c2a1103f0e785033cbca1fbbb72e4472e6254",
   "baseline_commit": "93b16facda9ed4abc903ba749b4e88e4f8ab7afd",
   "delta": {
-    "bytes": 4670115,
-    "file_count": 24,
-    "path": "preview-delta.zip",
-    "sha256": "3e8ecde1b5eb7db7c528db4f7c7824cbdc93cac20b4c3158288fb618af9cdbea"
+    "bytes": 23772648,
+    "file_count": 45,
+    "parts": [
+      {
+        "bytes": 8388608,
+        "path": "preview-delta.zip.part00",
+        "sha256": "cd7315e3d9824fe101d723114415bb71daa59be2cebabb58dddb0cf4aefd1d09"
+      },
+      {
+        "bytes": 8388608,
+        "path": "preview-delta.zip.part01",
+        "sha256": "afd48111de6d16eb8e34feb46e3d815e610ae5ad5c2dc53c79b1b080f420d629"
+      },
+      {
+        "bytes": 6995432,
+        "path": "preview-delta.zip.part02",
+        "sha256": "71dcb94c5870d24d2881aa00e2c2383ab79bc7cd5e063efec70c16f50aa88961"
+      }
+    ],
+    "sha256": "ae7592443ffbac7beb23f8ea4550e505c8c7335395a041ef1cd0fbb7a57d04dd"
   },
   "output": {
-    "file_count": 1051,
+    "file_count": 1072,
     "files": [
+      {
+        "bytes": 214624,
+        "path": "Portfolio/doc-ancient-temple.docx",
+        "sha256": "3439758af24418ed38746666b5d38abbdec5cca792dd29727ebf58ba78aed010"
+      },
       {
         "bytes": 4173386,
         "path": "Portfolio/doc-broken-home.pdf",
@@ -19,6 +40,16 @@
         "bytes": 4686536,
         "path": "Portfolio/doc-icebreaking.pdf",
         "sha256": "a743915c3bf41fead56935e27da9fdfc4cc35a89e3440b3bb2573a5291c82861"
+      },
+      {
+        "bytes": 17160159,
+        "path": "Portfolio/doc-moston.pdf",
+        "sha256": "bc4284cba383644b3fab7f8dde165c4f8b6c767075c9daaa6b045c5496664217"
+      },
+      {
+        "bytes": 36659,
+        "path": "Portfolio/project-sources.json",
+        "sha256": "4acf524de6d575148164e9e1ef12ad0ebb4036e7591b284c2c1ba9d0fb000680"
       },
       {
         "bytes": 209319,
@@ -36,14 +67,14 @@
         "sha256": "45e8ad0288e0a15b8f12471940535bf069db89f2e979d8d3b9baeeb439611884"
       },
       {
-        "bytes": 791752,
+        "bytes": 1041740,
         "path": "areas/areas-compressed.glb",
-        "sha256": "37614b9b116bfc6a5337df8c4cb5316392e18e7d06a41ec88138ef1b3c3fa75e"
+        "sha256": "2418943117e495c06590a95133aa4b5a463459ab20bff595effae9a1eb072fe2"
       },
       {
-        "bytes": 4538716,
+        "bytes": 6221292,
         "path": "areas/areas.glb",
-        "sha256": "6ca11f0f2f02221d358f4d8e67b17d3477a5cfa7a3748780a1c3fc64dfbf74a8"
+        "sha256": "60e8ab7dbb30e0c2f347c018ec4bb358b61a8d049a638d8fe5bb4f29359e12d3"
       },
       {
         "bytes": 1915,
@@ -56,14 +87,19 @@
         "sha256": "0eac1cf2c211dfe17c6b95beb1b1f0b9712d93da41a80538db102b15b9cc80a4"
       },
       {
-        "bytes": 4310200,
-        "path": "assets/Game-cVqG07WU.js",
-        "sha256": "e73051d2352449c5b98dd8c3af8724327c745b2de06891f35a8a7b4b4c821abb"
+        "bytes": 3095,
+        "path": "assets/Game-CsIJ1POt.css",
+        "sha256": "f5cc78e4bc72fea536286ba1dc585a0a8ab4bb10f0da9fc07ececcfb02dd1957"
       },
       {
-        "bytes": 8501,
-        "path": "assets/index-BK4o-b2u.js",
-        "sha256": "b68985933809e1a33039da135b73c6b92cb030d87c2f4d44cf3f8a44ba84a68d"
+        "bytes": 4366236,
+        "path": "assets/Game-Du5DOmYM.js",
+        "sha256": "9bbdd39017d7f94e1bc57ae82150752c2a9441133fc6cdf98f3dc79c4fb3f454"
+      },
+      {
+        "bytes": 8525,
+        "path": "assets/index-BCzzyzAM.js",
+        "sha256": "93c55ed5aeadbfc7874e7e3e525ac06f6d4528c1ae979f01a61bbb7d003ff655"
       },
       {
         "bytes": 43744,
@@ -77,8 +113,8 @@
       },
       {
         "bytes": 229996,
-        "path": "assets/rapier-BapLkZ_B.js",
-        "sha256": "816fedb95a73dd20d6137dc92d8f4b9d3ac954c213ea2b2b7b47157f6a53ec7a"
+        "path": "assets/rapier-BvHWEzmm.js",
+        "sha256": "ca1ba6ce7cf6670bbe863779bc413db9667f7a68408ea191dc14cf7953e8ceb9"
       },
       {
         "bytes": 1698487,
@@ -189,6 +225,11 @@
         "bytes": 25640,
         "path": "bushes/bushesReferences.glb",
         "sha256": "c36cacc626182792725a8e5dc2442f99ba80d8f95a750a303862ca68229298d4"
+      },
+      {
+        "bytes": 4286,
+        "path": "career/source-excerpts.html",
+        "sha256": "9c60c9eff9a95894bf5e7d6073bffb907ac5410172a91c2aa76c872d9eb3d01d"
       },
       {
         "bytes": 19624,
@@ -371,14 +412,14 @@
         "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
       },
       {
-        "bytes": 302620,
+        "bytes": 369836,
         "path": "fonts/yili-sans.woff",
-        "sha256": "93a044c8c2cb55d33aa5f312a103bfb56234df94f112d923048ea7c2e07c8d91"
+        "sha256": "d1532f4e45f5e6eaae46c22b21c82b78b4ec9aedfa7fe69d76bdcc196a165e5b"
       },
       {
-        "bytes": 65710,
+        "bytes": 67566,
         "path": "index.html",
-        "sha256": "f9f7cdcfc75a89042ba4f53fed9d5b78526da76f532e1521bae0cf8fe5f0982a"
+        "sha256": "ab08f6539081ac634e28180effe79d450088d1ad25ab8c7803a06ec4747ff4ae"
       },
       {
         "bytes": 819,
@@ -2174,6 +2215,86 @@
         "bytes": 44044,
         "path": "poleLights/poleLights.glb",
         "sha256": "d9fd055fed52eee3e954ff2e543068971ecc904693192564665e34abeefa50e0"
+      },
+      {
+        "bytes": 95314,
+        "path": "projects/images/ancient-temple-role.webp",
+        "sha256": "5646f8e40b75f4a7b04e835c67a6bac7ebca580fe967cff1a9a8a6937d408af4"
+      },
+      {
+        "bytes": 81576,
+        "path": "projects/images/ancient-temple-route.webp",
+        "sha256": "76e798a7642730adc150287368f758140cb6a4ebfa728aa28c2ea05459899395"
+      },
+      {
+        "bytes": 159028,
+        "path": "projects/images/ancient-temple-switch.webp",
+        "sha256": "59f82c1298e4c7e556569ef131c96b48b3c031f950cb2b6355ff3747df87b3e6"
+      },
+      {
+        "bytes": 80798,
+        "path": "projects/images/ancient-temple-towers.webp",
+        "sha256": "760fdf4486e9ee2ddb0cde6423336079a3a5b1d6c5f8bc9e3ea91ac72829cf82"
+      },
+      {
+        "bytes": 85926,
+        "path": "projects/images/broken-home-cooperate.webp",
+        "sha256": "dd86e4cda5f347dd6f22e982042bd328b900d38fc2426cf7deeeefc6e09ef72f"
+      },
+      {
+        "bytes": 80252,
+        "path": "projects/images/broken-home-mirror.webp",
+        "sha256": "a7249f9f1dd88eb25d0925459f7a5c6b58f8b93a5196a74265e42e18458d9b09"
+      },
+      {
+        "bytes": 141734,
+        "path": "projects/images/broken-home-role.webp",
+        "sha256": "ca02c66baf1d803a6e281390867a0424d0b42bdb21be6a4ebc9935ec89e2db1c"
+      },
+      {
+        "bytes": 134388,
+        "path": "projects/images/broken-home-route.webp",
+        "sha256": "f75be38e9eb2f1ae20537c5e4c424c0c1a091e39bf9d40c11210f5c1f5e15c86"
+      },
+      {
+        "bytes": 107392,
+        "path": "projects/images/icebreaking-airship.webp",
+        "sha256": "66006f30850643aa924282ca6ab7f8c1ddfb0dd0b1bfcdb78a7634ef203e5bce"
+      },
+      {
+        "bytes": 95882,
+        "path": "projects/images/icebreaking-minecart.webp",
+        "sha256": "8e373162c23e9d85afeb8b8599ae0cf1fdaab82c057ee8f993a935fe57d4ee06"
+      },
+      {
+        "bytes": 94966,
+        "path": "projects/images/icebreaking-route.webp",
+        "sha256": "f09318047b50c47d00d16131aa43c494f0938399e71c752107820383f752b9c2"
+      },
+      {
+        "bytes": 86072,
+        "path": "projects/images/icebreaking-scope.webp",
+        "sha256": "6edceedb254551c1bfe4d116d0c4c8fc7ee5988babe229be5ffcb85ad8463186"
+      },
+      {
+        "bytes": 190024,
+        "path": "projects/images/moston-feedback.webp",
+        "sha256": "6f524c8f4b64f83d1e6f39916deb2799fe4135fa2bf1427ff75980debf7aad1a"
+      },
+      {
+        "bytes": 161372,
+        "path": "projects/images/moston-gameplay.webp",
+        "sha256": "c25301de5cb1221508e186b98c15499af9f70f6c294d02a20c0df6452308ad98"
+      },
+      {
+        "bytes": 193928,
+        "path": "projects/images/moston-path.webp",
+        "sha256": "c6e42cb47235f75c886fd6aa2a6518ce0e91db038db88d2685fd6bcb695c6d28"
+      },
+      {
+        "bytes": 170648,
+        "path": "projects/images/moston-reflection.webp",
+        "sha256": "27fbfc9fd41eb9b74e3b36326bf90a20d4360c8c225ef9c0fb1a6666c87dcb73"
       },
       {
         "bytes": 28490,
@@ -5266,8 +5387,8 @@
         "sha256": "63b1f6a273cfe4f12382d9e470f8664542e519274da8fcacb11ce2dd12790923"
       }
     ],
-    "total_bytes": 57526244,
-    "tree_sha256": "ddedc74510765c7c7507d6b98ad7f330771d4fd6fc4c8c8cf06ab6090ef7a95d"
+    "total_bytes": 78962063,
+    "tree_sha256": "d41275b6cbb8ef7e454de00c0ef1962606e1b6209ef84dee7dafb982d6f139f8"
   },
   "removed": [
     ".nojekyll",
