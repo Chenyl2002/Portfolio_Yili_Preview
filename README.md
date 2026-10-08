@@ -1,15 +1,21 @@
 # 陈宜理 · 独立作品集技术预览
 
-This repository publishes a separate technical preview through GitHub Pages. It does not modify `Chenyl2002/Portfolio_Yili` or `chenyili.fun`.
+This repository publishes a separate portfolio preview through GitHub Pages. It does not modify `Chenyl2002/Portfolio_Yili` or `chenyili.fun`. No custom domain or CNAME is configured.
 
-The static preview uses an adapted Bruno Simon scene with 陈宜理 portfolio content. Original attribution and third-party licenses are preserved inside the published site's `licenses/` directory and visible page credit.
+The static preview adapts Bruno Simon's scene and preserves original attribution and third-party licenses in the published `licenses/` directory and visible page credit.
 
-## Reproducible deployment
+## Exact, offline deployment
 
-The approved built website is stored as nine `preview.zip.partNN` files. `manifest.json` records each part's size and SHA-256, plus the reassembled ZIP checksum. `extract_preview.py` verifies all checksums and rejects unsafe paths before writing `dist/`.
+The nine existing `preview.zip.partNN` files retain the approved baseline archive from commit `93b16facda9ed4abc903ba749b4e88e4f8ab7afd`. `manifest.json` is unchanged. The small `preview-delta.zip` contains only added or changed public assets, while `release-manifest.json` specifies exact removals and every final file's size and SHA-256.
 
-Run `python3 extract_preview.py` with Python 3 to reproduce the exact static artifact locally. No package installation or network access is required. Serve the extracted `dist/` directory using a static web server.
+From a clean checkout with no `dist/` directory, run:
 
-The pinned official GitHub Actions workflow publishes the verified artifact to GitHub Pages. Repository settings use **GitHub Actions** as the Pages source. No custom domain or CNAME is configured.
+```sh
+python3 extract_preview.py
+```
 
-This preview is public. The website contains the portfolio owner's approved name, portfolio content, and contact information. The repository contains built public assets rather than development credentials or private configuration.
+No package installation or network access is needed. The extractor verifies the pinned baseline, delta checksum, safe archive paths and types, exact change/deletion sets, preserved license files, and the complete final output manifest. It builds in a temporary directory and exposes `dist/` only after all checks pass. It refuses an existing `dist/` rather than mixing in stale files. For a repeat run, use a new clean checkout.
+
+The original pinned official GitHub Actions workflow publishes that verified `dist/` to GitHub Pages. Serve `dist/` with any static web server for local review.
+
+Only built public assets are packaged. Development sources, credentials, private configurations, and custom-domain settings are excluded. This public preview contains the portfolio owner's approved portfolio and contact content.
