@@ -2,7 +2,7 @@
   "baseline_archive_sha256": "47ead0992116c8e5bc760b89229c2a1103f0e785033cbca1fbbb72e4472e6254",
   "baseline_commit": "93b16facda9ed4abc903ba749b4e88e4f8ab7afd",
   "delta": {
-    "bytes": 23790446,
+    "bytes": 23779853,
     "file_count": 45,
     "parts": [
       {
@@ -16,12 +16,12 @@
         "sha256": "afd48111de6d16eb8e34feb46e3d815e610ae5ad5c2dc53c79b1b080f420d629"
       },
       {
-        "bytes": 7013230,
+        "bytes": 7002637,
         "path": "preview-delta.zip.part02",
-        "sha256": "bcf8d4f59426edb3a6b2752bfc2eed00dde51ddad86d5526c738bb1ad989831f"
+        "sha256": "90c9a5370b2d0f8274b48091f00d091601fe055784c6be93dbcd02b321f9d955"
       }
     ],
-    "sha256": "a83eaf34311d4cd5c7180c7eae765f99f1741c69c0a7ea3243e729357359eefc"
+    "sha256": "a93e55644a5c82ca19296299d645e7c835d0d292069b679163bf21cb0644de8b"
   },
   "output": {
     "file_count": 1072,
@@ -67,14 +67,14 @@
         "sha256": "45e8ad0288e0a15b8f12471940535bf069db89f2e979d8d3b9baeeb439611884"
       },
       {
-        "bytes": 1041740,
+        "bytes": 1010796,
         "path": "areas/areas-compressed.glb",
-        "sha256": "2418943117e495c06590a95133aa4b5a463459ab20bff595effae9a1eb072fe2"
+        "sha256": "591eef08043469a4cff4c949246fda4c5624fee4479419796ff23ab9631225e4"
       },
       {
-        "bytes": 6221292,
+        "bytes": 6196040,
         "path": "areas/areas.glb",
-        "sha256": "60e8ab7dbb30e0c2f347c018ec4bb358b61a8d049a638d8fe5bb4f29359e12d3"
+        "sha256": "4f33090ad346bde8bafc269e5960951d6176a52f6e68448ac0e70c8be5a09a27"
       },
       {
         "bytes": 1915,
@@ -87,19 +87,19 @@
         "sha256": "0eac1cf2c211dfe17c6b95beb1b1f0b9712d93da41a80538db102b15b9cc80a4"
       },
       {
-        "bytes": 4405063,
-        "path": "assets/Game-5qeN_1zD.js",
-        "sha256": "4f8e968fac661eb955239bdf70f5c85bfebe5070fdafdbe0a3172f3a4772f5e5"
+        "bytes": 4402021,
+        "path": "assets/Game-4ipgQYy4.js",
+        "sha256": "79c31ea20752c706b39a12a8aeb60d59f576a178b93ec5ef7309d477117616a2"
       },
       {
-        "bytes": 15098,
-        "path": "assets/Game-BVr5NdOF.css",
-        "sha256": "8f8cbf37c56d1ed70e20f26493b2c78bff684eee7bf38983cbde8edc3345fd42"
+        "bytes": 10971,
+        "path": "assets/Game-B-ZPz9lI.css",
+        "sha256": "3dca7098b8849fab81d11024f56da17b7f676bc5fe3efcbecb79f581b1faef3e"
       },
       {
         "bytes": 8525,
-        "path": "assets/index-DuOqCNoA.js",
-        "sha256": "0c896375b06989d52cb61b1c88848511a4f45c047cd5f4fda1674996b4c74785"
+        "path": "assets/index-B6pM5eYL.js",
+        "sha256": "f57440ae613f28b56582726b229808f7a7cc2ce7f8aa3d556b40bebcbfbe1e01"
       },
       {
         "bytes": 43744,
@@ -113,8 +113,8 @@
       },
       {
         "bytes": 229996,
-        "path": "assets/rapier-DAX4Xzoh.js",
-        "sha256": "9031d14c458af137ae0476d09f649ecdd0ad7c2e9885ad184be45164c70afa9c"
+        "path": "assets/rapier-DBUUXh_e.js",
+        "sha256": "6ae9546cc3af0099e6c4a090ddd85bd38495ffd19978268db18f02b7b2122634"
       },
       {
         "bytes": 1698487,
@@ -412,14 +412,14 @@
         "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
       },
       {
-        "bytes": 374632,
+        "bytes": 375088,
         "path": "fonts/yili-sans.woff",
-        "sha256": "8ac8f0d7d6e8132fca7fc71cf0d5717636fc3d20666462d3ba40a2cf0fb9c321"
+        "sha256": "61c3dde9ad6798eb8cc407b244a5024ab6d624d0af6086d460c774bd0ca18169"
       },
       {
-        "bytes": 67626,
+        "bytes": 67757,
         "path": "index.html",
-        "sha256": "cc2b8c1df349ded94c545d702631f5fb46c19210e66e75d494d40324b7b18d25"
+        "sha256": "0d73e8248730257fdef59181bb428e094659b54df43842a27d9289e71cbde45f"
       },
       {
         "bytes": 819,
@@ -5387,8 +5387,8 @@
         "sha256": "63b1f6a273cfe4f12382d9e470f8664542e519274da8fcacb11ce2dd12790923"
       }
     ],
-    "total_bytes": 79017749,
-    "tree_sha256": "ce39b5ab724bfe345f6368065f6f5c909113cf8d396a746638346803f47c5244"
+    "total_bytes": 78954971,
+    "tree_sha256": "7aa86c9fd0b35362c85d16e62b1bce1c10874ab0b4af812a91dad1364a7e8d2d"
   },
   "removed": [
     ".nojekyll",
