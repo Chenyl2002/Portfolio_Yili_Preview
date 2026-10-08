@@ -2,10 +2,10 @@
   "baseline_archive_sha256": "47ead0992116c8e5bc760b89229c2a1103f0e785033cbca1fbbb72e4472e6254",
   "baseline_commit": "93b16facda9ed4abc903ba749b4e88e4f8ab7afd",
   "delta": {
-    "bytes": 4668911,
+    "bytes": 4670115,
     "file_count": 24,
     "path": "preview-delta.zip",
-    "sha256": "b6291cbdcbba9da184c1b159107008d403458f75f55a549809347414221cddc8"
+    "sha256": "3e8ecde1b5eb7db7c528db4f7c7824cbdc93cac20b4c3158288fb618af9cdbea"
   },
   "output": {
     "file_count": 1051,
@@ -61,14 +61,14 @@
         "sha256": "e73051d2352449c5b98dd8c3af8724327c745b2de06891f35a8a7b4b4c821abb"
       },
       {
-        "bytes": 5410,
-        "path": "assets/index-CNgWWWmn.js",
-        "sha256": "d89ba71f1b65bf74929f4824ae1fa1da0294316a0452cc16eb9d5763d0009060"
+        "bytes": 8501,
+        "path": "assets/index-BK4o-b2u.js",
+        "sha256": "b68985933809e1a33039da135b73c6b92cb030d87c2f4d44cf3f8a44ba84a68d"
       },
       {
-        "bytes": 43521,
-        "path": "assets/index-CzKVTVnQ.css",
-        "sha256": "f50e864a16549bc127531cea33f5c8e5e39ddcac9efc6b3111013151018fb713"
+        "bytes": 43744,
+        "path": "assets/index-mHYVtulr.css",
+        "sha256": "40e7536572026fe42ab0ab4e72489cdaf4a579c4f3f8c7d1bfe83e3f00f07a6c"
       },
       {
         "bytes": 1633,
@@ -376,9 +376,9 @@
         "sha256": "93a044c8c2cb55d33aa5f312a103bfb56234df94f112d923048ea7c2e07c8d91"
       },
       {
-        "bytes": 65395,
+        "bytes": 65710,
         "path": "index.html",
-        "sha256": "d546080442b94cd9d228cae5b920173596b604972be13f2b45480061dc50ce57"
+        "sha256": "f9f7cdcfc75a89042ba4f53fed9d5b78526da76f532e1521bae0cf8fe5f0982a"
       },
       {
         "bytes": 819,
@@ -5266,8 +5266,8 @@
         "sha256": "63b1f6a273cfe4f12382d9e470f8664542e519274da8fcacb11ce2dd12790923"
       }
     ],
-    "total_bytes": 57522615,
-    "tree_sha256": "f1b2083803d50310e4d1322779f3ca19f50c6289488aadeddf6e1f81a94c4e5d"
+    "total_bytes": 57526244,
+    "tree_sha256": "ddedc74510765c7c7507d6b98ad7f330771d4fd6fc4c8c8cf06ab6090ef7a95d"
   },
   "removed": [
     ".nojekyll",
