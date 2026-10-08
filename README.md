@@ -1,23 +1,29 @@
-# 陈宜理 · 独立作品集技术预览
+# 陈宜理 · 中文作品集独立预览
 
-This repository publishes a separate portfolio preview through GitHub Pages. It does not modify `Chenyl2002/Portfolio_Yili` or `chenyili.fun`. No custom domain or CNAME is configured.
+这个仓库通过 GitHub Pages 发布独立作品集预览，不修改 `Chenyl2002/Portfolio_Yili` 或 `chenyili.fun`，也没有配置自定义域名。
 
-The static preview adapts Bruno Simon's scene and preserves original attribution and third-party licenses in the published `licenses/` directory and visible page credit.
+## 预览内容与当前状态
 
-This art-integration technical preview adds newly authored CHEN YILI lettering and a Voyage navigation kiosk; these are portfolio props, not exports from the owner's UE5 project. The original interactive map and upstream world remain. The final-I collider alone is narrowed from 1.375374436378479 to 0.35772550106048584 scene units to remove an invisible margin; all other 239 colliders are preserved. Static checks, build, and offline model review do not establish live 3D rendering, driving, collision/reset behavior, audio, map interaction, mobile usability, or GPU performance. Those checks remain outstanding.
+界面、导航、操作说明、设置、场景标识、互动提示及成就说明已改为中文。作品原名、作者与技术名称、按键标识、网址和原始版权文字在必要处保留。原始作品文档、简历及许可证没有被改写。游戏内成就只描述场景玩法，不表示个人获奖经历。
 
-## Exact, offline deployment
+场景基于 Bruno Simon 的作品改编，并保留可见署名以及 `licenses/` 中的原始许可证。本次加入的「陈宜理」三个立体姓名方块、中文指示牌及「破冰启航」导览装置是为作品集制作的场景元素，并非从作者的 虚幻引擎5 项目直接导出。原互动地图保留。姓名方块及其碰撞体已适配中文外形，旧英文姓名中多余的七组物体与碰撞体不再进入活动场景。
 
-The nine existing `preview.zip.partNN` files retain the approved baseline archive from commit `93b16facda9ed4abc903ba749b4e88e4f8ab7afd`. `manifest.json` is unchanged. The small `preview-delta.zip` contains only added or changed public assets, while `release-manifest.json` specifies exact removals and every final file's size and SHA-256.
+设置和赛道入口的配图来自中文资产的离线渲染，页面已注明「效果示意（离线渲染）」，不表示实机截图。备用项目封面保留 `height: auto` 的响应式尺寸修正。当前版本仍是未完成的技术预览，未连接多人服务器或分析追踪，声音默认关闭。
 
-From a clean checkout with no `dist/` directory, run:
+已完成源代码、字体覆盖、资源结构、生产构建和离线发布还原检查。这些检查不能代替真实浏览器中的三维渲染、驾驶、碰撞与复位、声音、地图交互、手机布局或性能测试；上述实机项目仍待核实。
+
+## 精确还原发布内容
+
+九个既有的 `preview.zip.partNN` 分卷保留提交 `93b16facda9ed4abc903ba749b4e88e4f8ab7afd` 中的原始基线压缩包，`manifest.json` 不变。`preview-delta.zip` 只包含新增或更改的公开资源；`release-manifest.json` 记录精确删除清单和每个最终文件的字节数、SHA-256。
+
+在没有 `dist/` 目录的全新副本中运行：
 
 ```sh
 python3 extract_preview.py
 ```
 
-No package installation or network access is needed. The extractor verifies the pinned baseline, delta checksum, safe archive paths and types, exact change/deletion sets, preserved license files, and the complete final output manifest. It builds in a temporary directory and exposes `dist/` only after all checks pass. It refuses an existing `dist/` rather than mixing in stale files. For a repeat run, use a new clean checkout.
+无需安装依赖或联网。还原程序验证基线及增量校验和、压缩包路径与文件类型、精确增删集合、许可证完整性及全部最终文件；验证通过后才生成 `dist/`。如果 `dist/` 已存在，程序会拒绝覆盖，避免混入旧文件。再次验证时请使用新的干净副本。
 
-The original pinned official GitHub Actions workflow publishes that verified `dist/` to GitHub Pages. Serve `dist/` with any static web server for local review.
+保留的 GitHub Actions 工作流会将已验证的 `dist/` 发布到 GitHub Pages。也可以用静态服务器打开 `dist/` 做本地检查。
 
-Only built public assets are packaged. Development sources, credentials, private configurations, and custom-domain settings are excluded. This public preview contains the portfolio owner's approved portfolio and contact content.
+发布包只含构建后的公开资源，不含开发源代码、凭据、私有配置或自定义域名设置。公开页面保留作品集所有者已授权的作品和联系信息。

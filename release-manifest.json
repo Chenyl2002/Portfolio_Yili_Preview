@@ -2,10 +2,10 @@
   "baseline_archive_sha256": "47ead0992116c8e5bc760b89229c2a1103f0e785033cbca1fbbb72e4472e6254",
   "baseline_commit": "93b16facda9ed4abc903ba749b4e88e4f8ab7afd",
   "delta": {
-    "bytes": 2915935,
-    "file_count": 12,
+    "bytes": 4668911,
+    "file_count": 24,
     "path": "preview-delta.zip",
-    "sha256": "3ee72df216c36adf428953ca29c3fdd7de4d4c2b015549f7500d15093a9b311c"
+    "sha256": "b6291cbdcbba9da184c1b159107008d403458f75f55a549809347414221cddc8"
   },
   "output": {
     "file_count": 1051,
@@ -36,14 +36,14 @@
         "sha256": "45e8ad0288e0a15b8f12471940535bf069db89f2e979d8d3b9baeeb439611884"
       },
       {
-        "bytes": 667916,
+        "bytes": 791752,
         "path": "areas/areas-compressed.glb",
-        "sha256": "757d0be7996071dec908adc61512e74866758514f5492b61898d94a57b538b5f"
+        "sha256": "37614b9b116bfc6a5337df8c4cb5316392e18e7d06a41ec88138ef1b3c3fa75e"
       },
       {
-        "bytes": 3682288,
+        "bytes": 4538716,
         "path": "areas/areas.glb",
-        "sha256": "c68182710be559698a8d3786704633353f6c9bc1ff56bea69d9127a96cda5f2a"
+        "sha256": "6ca11f0f2f02221d358f4d8e67b17d3477a5cfa7a3748780a1c3fc64dfbf74a8"
       },
       {
         "bytes": 1915,
@@ -56,19 +56,19 @@
         "sha256": "0eac1cf2c211dfe17c6b95beb1b1f0b9712d93da41a80538db102b15b9cc80a4"
       },
       {
-        "bytes": 4300490,
-        "path": "assets/Game-CHvZjn_1.js",
-        "sha256": "e1deb9c1e0506c3f68359833058bf3ee17c4e87337a099e4d83bc6c6ce7e2b54"
+        "bytes": 4310200,
+        "path": "assets/Game-cVqG07WU.js",
+        "sha256": "e73051d2352449c5b98dd8c3af8724327c745b2de06891f35a8a7b4b4c821abb"
       },
       {
-        "bytes": 42833,
-        "path": "assets/index-CXbIFggN.css",
-        "sha256": "b200e6f86f95356a8f881d408d9ef02fad466019abe50155e8c7d8f8e580ccd3"
+        "bytes": 5410,
+        "path": "assets/index-CNgWWWmn.js",
+        "sha256": "d89ba71f1b65bf74929f4824ae1fa1da0294316a0452cc16eb9d5763d0009060"
       },
       {
-        "bytes": 12982,
-        "path": "assets/index-D1tfEoDN.js",
-        "sha256": "a56ff3d4b9ac19c7d416a0a781225006cccceda53e961990030c5e6b7cb5a4ed"
+        "bytes": 43521,
+        "path": "assets/index-CzKVTVnQ.css",
+        "sha256": "f50e864a16549bc127531cea33f5c8e5e39ddcac9efc6b3111013151018fb713"
       },
       {
         "bytes": 1633,
@@ -77,8 +77,8 @@
       },
       {
         "bytes": 229996,
-        "path": "assets/rapier-CC2OS2MG.js",
-        "sha256": "7ab93faf02962df18ea57a8e1e2aa00da8928f7f386d2991812254b1910a7070"
+        "path": "assets/rapier-BapLkZ_B.js",
+        "sha256": "816fedb95a73dd20d6137dc92d8f4b9d3ac954c213ea2b2b7b47157f6a53ec7a"
       },
       {
         "bytes": 1698487,
@@ -371,14 +371,14 @@
         "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
       },
       {
-        "bytes": 119716,
+        "bytes": 302620,
         "path": "fonts/yili-sans.woff",
-        "sha256": "515f8db7edb295ef5a33c2a72e82779d3cec35265fcbfb01af8f2f13dad008b4"
+        "sha256": "93a044c8c2cb55d33aa5f312a103bfb56234df94f112d923048ea7c2e07c8d91"
       },
       {
-        "bytes": 62904,
+        "bytes": 65395,
         "path": "index.html",
-        "sha256": "02b35f3973bdb0abcb6ebb2fe2dfe5a85294709a8e0e78520e1c5885ca3be2e5"
+        "sha256": "d546080442b94cd9d228cae5b920173596b604972be13f2b45480061dc50ce57"
       },
       {
         "bytes": 819,
@@ -431,34 +431,34 @@
         "sha256": "3ec8344048b2019c3e53f89184560b7973425f68425600892fb62b392a3686ad"
       },
       {
-        "bytes": 2688,
+        "bytes": 32992,
         "path": "intro/gamepadPlaystationLabel.ktx",
-        "sha256": "4ce217fafeeb04fdc51d1924080b4ac7eec9e06c594ff43bae05d07e391c4432"
+        "sha256": "2a95a5267fa620d26282103024950082566c3440393e1bddadae05cd0118dc5e"
       },
       {
-        "bytes": 5881,
+        "bytes": 10097,
         "path": "intro/gamepadPlaystationLabel.png",
-        "sha256": "e07889466fb437a7c480c858031f3d8b50025e3ff30586dd9f01734b885bc850"
+        "sha256": "b54f30494fc2a863b0ddc375b7afed30b16ef96808a5d2d54e3df8e83952dace"
       },
       {
-        "bytes": 2690,
+        "bytes": 32992,
         "path": "intro/gamepadXboxLabel.ktx",
-        "sha256": "898f6fab065b1c7dc75ab3973c10a9ebd526e8dff293be44b4e4daef21821e9c"
+        "sha256": "6128bd5b61d786be94c875a829df76dbbe499875b1a613e8ae3229bc5a09887c"
       },
       {
-        "bytes": 5905,
+        "bytes": 10171,
         "path": "intro/gamepadXboxLabel.png",
-        "sha256": "7ee919937dc216e7a750bc9ca4e45cd62af800d58bb1505c909a036b785e7d79"
+        "sha256": "b84f9f46374ba8ef19af3e8e67752204f615ff2eb56446ce84e9cdf62c2e0173"
       },
       {
-        "bytes": 2324,
+        "bytes": 32992,
         "path": "intro/mouseKeyboardLabel.ktx",
-        "sha256": "5dabe9d14c921173ebdb7d821c4284df1a993138c7d380e6fc04185f89d31d82"
+        "sha256": "f0ee4befe7ee1e60b02bfa9e121bb6845ad11bba1dece976efb6cff948ebe815"
       },
       {
-        "bytes": 4928,
+        "bytes": 8296,
         "path": "intro/mouseKeyboardLabel.png",
-        "sha256": "156cdffa288b74ef15941065093d472363a0040b54e0e9875c7aae528f5eb1b0"
+        "sha256": "fec7293a1eed613d95f869d5ea9c35144dc894ec75ec7a44e46a0079fdf4718a"
       },
       {
         "bytes": 947,
@@ -471,14 +471,14 @@
         "sha256": "e3f861c4f081a571d580f8e69ffcec7d740d0d93a9ee98ff384b979f1636e501"
       },
       {
-        "bytes": 2055,
+        "bytes": 32992,
         "path": "intro/touchLabel.ktx",
-        "sha256": "d5402da1c8e72d0ff6d7570951cc649ca5e90632e092c5fe5e39a45f9344b4da"
+        "sha256": "a4dd9bea7228d568bece3dd9b708b4bc2a9f12be986a93b6c97a9b98325014c2"
       },
       {
-        "bytes": 4567,
+        "bytes": 10756,
         "path": "intro/touchLabel.png",
-        "sha256": "506445cd77f59c4a092fa7f10629f9119ffd7492c94467962170b5ec584e6a79"
+        "sha256": "bcc4ddaeffa34e71850d389c313a67de1920836793a9ac4cd710a31cafe1724a"
       },
       {
         "bytes": 627,
@@ -5131,14 +5131,14 @@
         "sha256": "7d307d50d672ec9b7ad942fd60b4d1675c57912b8bcc90e35f2049c7d8e3b322"
       },
       {
-        "bytes": 390534,
+        "bytes": 574428,
         "path": "ui/previews/circuit.png",
-        "sha256": "768d60f6bf98c17b30333a61e4a61f5b2774993cf6b4e205d877ec5794429996"
+        "sha256": "20a83be86a9e15e1b6fb052dbdd3459b842974527f6a1227963c9bff5dd27fb6"
       },
       {
-        "bytes": 35288,
+        "bytes": 57054,
         "path": "ui/previews/circuit.webp",
-        "sha256": "9e3c3720033c4d7370e8fb86c75d39efadcfc828119325806ce91df408098d11"
+        "sha256": "b5057b68385edd6efa46e4c30f7d2f8b5e84bdc006026ddfbea635e77d2ec5b6"
       },
       {
         "bytes": 385527,
@@ -5171,14 +5171,14 @@
         "sha256": "299ba9aad64c59b9cb5ed07c5d204a4980214bdcc88ac786207f18ae2c437ecd"
       },
       {
-        "bytes": 516577,
+        "bytes": 490143,
         "path": "ui/previews/options.png",
-        "sha256": "3862ceea3a1c87b213a9e52614681076ac9cb94aa83a00305c5b298e878a36c9"
+        "sha256": "7dad25147ecd2c04f26c0affefb56c5f90f823a64030ed0922e2b0cc96b877ba"
       },
       {
-        "bytes": 65300,
+        "bytes": 24710,
         "path": "ui/previews/options.webp",
-        "sha256": "e7f54e22b1a127c9b55a4ef2651c61fc2aba93d71f47fea6402b47e99dc07c88"
+        "sha256": "675f5d9352d6267c65581bc85911c7002a4297b231af3d68806b1c7ae6faea1e"
       },
       {
         "bytes": 406994,
@@ -5266,8 +5266,8 @@
         "sha256": "63b1f6a273cfe4f12382d9e470f8664542e519274da8fcacb11ce2dd12790923"
       }
     ],
-    "total_bytes": 56075244,
-    "tree_sha256": "c6eb37231afaa407484de7660a91d6e7ded28342d1957bc14112c9f64fc0a8aa"
+    "total_bytes": 57522615,
+    "tree_sha256": "f1b2083803d50310e4d1322779f3ca19f50c6289488aadeddf6e1f81a94c4e5d"
   },
   "removed": [
     ".nojekyll",
