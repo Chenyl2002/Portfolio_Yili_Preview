@@ -2,10 +2,10 @@
   "baseline_archive_sha256": "47ead0992116c8e5bc760b89229c2a1103f0e785033cbca1fbbb72e4472e6254",
   "baseline_commit": "93b16facda9ed4abc903ba749b4e88e4f8ab7afd",
   "delta": {
-    "bytes": 1395748,
-    "file_count": 10,
+    "bytes": 2915935,
+    "file_count": 12,
     "path": "preview-delta.zip",
-    "sha256": "878031a896d482393afb4f9b769b2f4e43a863870760b8fd9390bdd917a27121"
+    "sha256": "3ee72df216c36adf428953ca29c3fdd7de4d4c2b015549f7500d15093a9b311c"
   },
   "output": {
     "file_count": 1051,
@@ -36,14 +36,14 @@
         "sha256": "45e8ad0288e0a15b8f12471940535bf069db89f2e979d8d3b9baeeb439611884"
       },
       {
-        "bytes": 639312,
+        "bytes": 667916,
         "path": "areas/areas-compressed.glb",
-        "sha256": "eb2fc8a5215b87ae4e6266566e0d2005ab3588a7ed51877f35c067d49ced8cee"
+        "sha256": "757d0be7996071dec908adc61512e74866758514f5492b61898d94a57b538b5f"
       },
       {
-        "bytes": 3286220,
+        "bytes": 3682288,
         "path": "areas/areas.glb",
-        "sha256": "b756c3396f47ba5932bf24c0b0bc55e67d3e9823fb263920e0046c11940936ed"
+        "sha256": "c68182710be559698a8d3786704633353f6c9bc1ff56bea69d9127a96cda5f2a"
       },
       {
         "bytes": 1915,
@@ -376,9 +376,9 @@
         "sha256": "515f8db7edb295ef5a33c2a72e82779d3cec35265fcbfb01af8f2f13dad008b4"
       },
       {
-        "bytes": 62733,
+        "bytes": 62904,
         "path": "index.html",
-        "sha256": "451f74785d50a198a23b5adcc8cc6d53a7cc17cf5173c0f14fd616338ddcf463"
+        "sha256": "02b35f3973bdb0abcb6ebb2fe2dfe5a85294709a8e0e78520e1c5885ca3be2e5"
       },
       {
         "bytes": 819,
@@ -5266,8 +5266,8 @@
         "sha256": "63b1f6a273cfe4f12382d9e470f8664542e519274da8fcacb11ce2dd12790923"
       }
     ],
-    "total_bytes": 55650401,
-    "tree_sha256": "a95fb613355cb0ae1158305ddf06cb0a9a9cd2d1760f4631945e3ff6ae0a8f8a"
+    "total_bytes": 56075244,
+    "tree_sha256": "c6eb37231afaa407484de7660a91d6e7ded28342d1957bc14112c9f64fc0a8aa"
   },
   "removed": [
     ".nojekyll",
