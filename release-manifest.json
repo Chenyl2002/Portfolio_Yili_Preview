@@ -2,7 +2,7 @@
   "baseline_archive_sha256": "47ead0992116c8e5bc760b89229c2a1103f0e785033cbca1fbbb72e4472e6254",
   "baseline_commit": "93b16facda9ed4abc903ba749b4e88e4f8ab7afd",
   "delta": {
-    "bytes": 29034033,
+    "bytes": 29049687,
     "file_count": 55,
     "parts": [
       {
@@ -18,15 +18,15 @@
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part02",
-        "sha256": "da518104ac981270e1d4c9b22404302fc440f00742f66aabf025327956f8cf1f"
+        "sha256": "253c12ebe66cb54bb57893dd928a28ffbf87921c2e06eed5b2655a92f87156f1"
       },
       {
-        "bytes": 3868209,
+        "bytes": 3883863,
         "path": "preview-delta.zip.part03",
-        "sha256": "1b637c3d0ad3039ce09d31ddf819ccb037d889b0fc83d6ec4ecb7bc70f00b76c"
+        "sha256": "84830be9632d528ef0c462781d742fc25482882e81d59d92351b0498c85dabc6"
       }
     ],
-    "sha256": "de81c0ec9919f9704a63bd3f15ce863ec92a83aa44ec5c5782b90663725e9a3d"
+    "sha256": "57d8e12bc5c80d8a0a3679a6d4899847634c44ae280a46bb339a7280c244790e"
   },
   "output": {
     "file_count": 1076,
@@ -72,14 +72,14 @@
         "sha256": "45e8ad0288e0a15b8f12471940535bf069db89f2e979d8d3b9baeeb439611884"
       },
       {
-        "bytes": 1010796,
+        "bytes": 1023064,
         "path": "areas/areas-compressed.glb",
-        "sha256": "591eef08043469a4cff4c949246fda4c5624fee4479419796ff23ab9631225e4"
+        "sha256": "2e24643eb6500e94849b9859eb9b64d1122a657937d70ae5c50a44fb552ba642"
       },
       {
-        "bytes": 6196040,
+        "bytes": 6208304,
         "path": "areas/areas.glb",
-        "sha256": "4f33090ad346bde8bafc269e5960951d6176a52f6e68448ac0e70c8be5a09a27"
+        "sha256": "9a43e7e561893c9c42bcddabd693f3485d363363a77ce02d3ea97d2bec658fb1"
       },
       {
         "bytes": 1915,
@@ -92,19 +92,19 @@
         "sha256": "0eac1cf2c211dfe17c6b95beb1b1f0b9712d93da41a80538db102b15b9cc80a4"
       },
       {
-        "bytes": 4429502,
-        "path": "assets/Game-9sYx5drP.js",
-        "sha256": "f21d185cc419fcbe6e6f7f2697665675cd5d36612930994f54a7e697cb0b416e"
+        "bytes": 11974,
+        "path": "assets/Game-BizJQYDi.css",
+        "sha256": "1279e4651426b29d95d0307a57266a28f83e4c39ef4be3ea8c59cfffabaebe3a"
       },
       {
-        "bytes": 11868,
-        "path": "assets/Game-BaoVSqkN.css",
-        "sha256": "6a5da75ae6952faca7b65db3801cb06407f42e33bf466157628be07052fe22eb"
+        "bytes": 4430609,
+        "path": "assets/Game-D9NCINZK.js",
+        "sha256": "07227ed81a2979603e38de8aa8edfca89223edd2ed7ebe50a433bd0c00f3df3e"
       },
       {
         "bytes": 8525,
-        "path": "assets/index-BskT0nRZ.js",
-        "sha256": "1586b28c6a6652f00f01c535c709f40e330dac4137e72c248ba6372d58ee6950"
+        "path": "assets/index-BB1YV1lI.js",
+        "sha256": "4f50b58cf5768016c6def8f494cd5a2bc4168ae4a5fd6f72453346fb8eb55b03"
       },
       {
         "bytes": 43744,
@@ -118,8 +118,8 @@
       },
       {
         "bytes": 229996,
-        "path": "assets/rapier-BaHbdJuU.js",
-        "sha256": "92ced5065a2a9822508afdb1261e32768e96481058d4efbf9b397cb8c0be3d0d"
+        "path": "assets/rapier-B8J0YoCq.js",
+        "sha256": "dd8222699619789dfffda6e42e0abf41d52f1e439b881d7dd375e1b66127109e"
       },
       {
         "bytes": 1698487,
@@ -417,14 +417,14 @@
         "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
       },
       {
-        "bytes": 379604,
+        "bytes": 380864,
         "path": "fonts/yili-sans.woff",
-        "sha256": "a676ce2f418df1d1b1a3f8735d24f58b0dffdf1f56d7082349a016de35f0e3b0"
+        "sha256": "440ba08d4876f656a50594143cdb4419d9bc174b5c4cebfb2f2996d659c3a792"
       },
       {
-        "bytes": 68036,
+        "bytes": 68275,
         "path": "index.html",
-        "sha256": "26d1e63a5cbfdaa49b74849a64e74dda1e33e93e0239266cfa2924f63f9dd3fd"
+        "sha256": "162e6eea6b055854e53d895a22ddd046bd3100011cc7bfd72e2fb7b0b9214887"
       },
       {
         "bytes": 819,
@@ -5217,24 +5217,24 @@
         "sha256": "e143c1357729f0fd83a488b7a1ed1ec912c68c91977921101c89fb173a4ab9a3"
       },
       {
-        "bytes": 1359317,
+        "bytes": 1358593,
         "path": "ui/map/map-day.png",
-        "sha256": "74de95f6f103a5e40b96f7c926c0c19601255f91baff8eeca64fd66030dc6b68"
+        "sha256": "f040b0ba07ad1665cf6c664bc04c0ec10c3fe0ee6f6c3492b002327ed75789a3"
       },
       {
-        "bytes": 1038204,
+        "bytes": 1037232,
         "path": "ui/map/map-day.webp",
-        "sha256": "669de174de66e2fba3c07e551a22cc2b62f2dfaae3955a8dba40e17d1d67d8f8"
+        "sha256": "8ab02f18415536bb492204139d1b6b647d3020fd499132ede2ef3fff10c554a2"
       },
       {
-        "bytes": 1374435,
+        "bytes": 1374036,
         "path": "ui/map/map-night.png",
-        "sha256": "482ae0e925c12b40b92a1302f1e0b7c59b21be25fe8b1e251c2eaeaf21a24b9e"
+        "sha256": "bcda24c2ba334876e8588c919e562b4acb53ab5a1ffadc28b7d9c67d0007f4b4"
       },
       {
-        "bytes": 1090372,
+        "bytes": 1090092,
         "path": "ui/map/map-night.webp",
-        "sha256": "1274eb79a524bd127c034e81cc1ba7263063271539c67cbebbe7a6268cacaa45"
+        "sha256": "e4d080d0497a85bb13ab1da940c19344d35153fcb6011addb56aba2413173a54"
       },
       {
         "bytes": 24584,
@@ -5412,8 +5412,8 @@
         "sha256": "63b1f6a273cfe4f12382d9e470f8664542e519274da8fcacb11ce2dd12790923"
       }
     ],
-    "total_bytes": 80809285,
-    "tree_sha256": "39aeb0820059747e6199e0dcd920c20f68fa3487ae6668bc5bdf20abadaeca22"
+    "total_bytes": 80834154,
+    "tree_sha256": "a94fd2522060e5d25c96488f983d216ef3b9ce28609891fceda389bcf499c169"
   },
   "removed": [
     ".nojekyll",
