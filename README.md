@@ -44,3 +44,7 @@ python3 extract_preview.py
 The constant technical-preview banner has been removed. Home, map, and fallback copy now introduce Chen Yili's level/gameplay design focus and the four projects. Credits and licenses remain available under the existing credits section. Only HTML and its primary stylesheet changed; gameplay JavaScript, models, coordinates, environment and licenses are unchanged.
 
 This release uses a reproducible Vite HTML/CSS-only incremental build. The same pipeline reproduces the previously deployed baseline HTML/CSS byte-for-byte before building changed inputs; unchanged runtime outputs are reused exactly. The attempted full build was memory-limited (exit 137), not passed. No browser, device or GPU acceptance is claimed.
+
+## Optional project design views
+
+Adds optional design details inside the Ancient Temple, Moston, and Broken Home project boards. Original project documents remain the evidence source; interactive mechanism explanations are illustrative and do not claim to reproduce the original games. Navigation, placements, grass fix, project/experience separation and licenses are retained. This candidate passed its full production build and static/focused checks. Device acceptance is recorded separately before publication.

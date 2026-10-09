@@ -2,8 +2,8 @@
   "baseline_archive_sha256": "47ead0992116c8e5bc760b89229c2a1103f0e785033cbca1fbbb72e4472e6254",
   "baseline_commit": "93b16facda9ed4abc903ba749b4e88e4f8ab7afd",
   "delta": {
-    "bytes": 29057293,
-    "file_count": 56,
+    "bytes": 41561101,
+    "file_count": 58,
     "parts": [
       {
         "bytes": 8388608,
@@ -18,18 +18,23 @@
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part02",
-        "sha256": "f9681208170e8283287d4109a4734a998e72dae80025afbb3fb35063066e3e18"
+        "sha256": "afde450dfb5f86e4e5f580631d107d1e5a5bac16b4f5f51e4ca97366384deb6e"
       },
       {
-        "bytes": 3891469,
+        "bytes": 8388608,
         "path": "preview-delta.zip.part03",
-        "sha256": "207cd190282e40c414a91299c9e5b5f4308737759b8cd123b7b4f296ef215edc"
+        "sha256": "447db8b2f6b0fa34589cf4b8998444d5e69239907fe9a3e7a10e02d3a9d6e0b8"
+      },
+      {
+        "bytes": 8006669,
+        "path": "preview-delta.zip.part04",
+        "sha256": "9b4be2906299322b9676b5564efcb6f3a623d76d1c75fc23b83a8c237f31fc53"
       }
     ],
-    "sha256": "0dce080434e5e17e680281e4bb85e0d3f8ce15615d7be188bc72b2bc3d453922"
+    "sha256": "f05c9a5a2d3ff732cbc33a8a77d9842d95a9bb811950db6586d4a806db8a5c69"
   },
   "output": {
-    "file_count": 1077,
+    "file_count": 1079,
     "files": [
       {
         "bytes": 214624,
@@ -92,29 +97,24 @@
         "sha256": "0eac1cf2c211dfe17c6b95beb1b1f0b9712d93da41a80538db102b15b9cc80a4"
       },
       {
-        "bytes": 11974,
-        "path": "assets/Game-BizJQYDi.css",
-        "sha256": "1279e4651426b29d95d0307a57266a28f83e4c39ef4be3ea8c59cfffabaebe3a"
+        "bytes": 4447525,
+        "path": "assets/Game-Br6EtFFq.js",
+        "sha256": "db1725e9b8de33c01b2959a50442844afaa17a6370cbc28038640c9ff33a02e3"
       },
       {
-        "bytes": 4430609,
-        "path": "assets/Game-D9NCINZK.js",
-        "sha256": "07227ed81a2979603e38de8aa8edfca89223edd2ed7ebe50a433bd0c00f3df3e"
+        "bytes": 17037,
+        "path": "assets/Game-iMjLpolA.css",
+        "sha256": "7c3538b0a1f8cd915566b0404d4474df3bb99a80b105ba3910bc1b64c7612ed2"
       },
       {
         "bytes": 8525,
-        "path": "assets/index-BB1YV1lI.js",
-        "sha256": "4f50b58cf5768016c6def8f494cd5a2bc4168ae4a5fd6f72453346fb8eb55b03"
+        "path": "assets/index-BnH_PrMt.js",
+        "sha256": "732450776fc57183d78e63a7e0f824299c003cc3800677857525471eb8055561"
       },
       {
         "bytes": 43861,
         "path": "assets/index-DiqPWWoi.css",
         "sha256": "df5b24b4f7485d6a7042f524e4c2c51d39ffd4115f1e448200c20b73ea21c05d"
-      },
-      {
-        "bytes": 43744,
-        "path": "assets/index-mHYVtulr.css",
-        "sha256": "40e7536572026fe42ab0ab4e72489cdaf4a579c4f3f8c7d1bfe83e3f00f07a6c"
       },
       {
         "bytes": 1633,
@@ -123,8 +123,8 @@
       },
       {
         "bytes": 229996,
-        "path": "assets/rapier-B8J0YoCq.js",
-        "sha256": "dd8222699619789dfffda6e42e0abf41d52f1e439b881d7dd375e1b66127109e"
+        "path": "assets/rapier-Cz_dQTKi.js",
+        "sha256": "08209e4af7c1162cdfffac844f7f215991f5e124e6eb2608b0d69299b076daae"
       },
       {
         "bytes": 1698487,
@@ -429,7 +429,7 @@
       {
         "bytes": 68436,
         "path": "index.html",
-        "sha256": "14aa5becedaa15969ae96e3e43d81722cb343c37e97273b3c987f1b7a3a7f2f6"
+        "sha256": "93a05745024cb8ad3d89f37b7e079879e1c45c7e347ed6e97001bf96d73b708f"
       },
       {
         "bytes": 819,
@@ -2225,6 +2225,21 @@
         "bytes": 44044,
         "path": "poleLights/poleLights.glb",
         "sha256": "d9fd055fed52eee3e954ff2e543068971ecc904693192564665e34abeefa50e0"
+      },
+      {
+        "bytes": 87741,
+        "path": "projects/design-view/ancient-flow-tutorial.png",
+        "sha256": "841e5a6720b45c9d2c7144be60f2d487e6e26164e26c8780e690833ee1adcc85"
+      },
+      {
+        "bytes": 7331259,
+        "path": "projects/design-view/moston-p42.png",
+        "sha256": "d1768260c91037dd92714b67f10af67f7919951d33c5ece3eed4543580015cd7"
+      },
+      {
+        "bytes": 5099481,
+        "path": "projects/design-view/moston-p43.png",
+        "sha256": "fbe0b598db8417b588788630056a958fb0b7e8b2ec21af04cea88e4f9644c750"
       },
       {
         "bytes": 88496,
@@ -5417,8 +5432,8 @@
         "sha256": "63b1f6a273cfe4f12382d9e470f8664542e519274da8fcacb11ce2dd12790923"
       }
     ],
-    "total_bytes": 80878176,
-    "tree_sha256": "e4eae71c11dddb9b396b4c2db35e9f2dbd83f235b642abe00c5443e419cdf1d9"
+    "total_bytes": 93374892,
+    "tree_sha256": "16682b7b2dccbebe1439f7550ad2a4cedc92e99aa9903539132293d9eb42361f"
   },
   "removed": [
     ".nojekyll",
