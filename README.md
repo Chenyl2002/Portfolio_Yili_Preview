@@ -38,3 +38,9 @@ python3 extract_preview.py
 无需安装依赖或联网。提取器先验证路径、类型、分卷和合并压缩包、增删集合、许可证及全部最终文件，再生成 dist；拒绝覆盖已有 dist。保留的 GitHub Actions 工作流发布验证后的静态网站，也可用静态服务器在本地打开。
 
 公开发布包仅含构建资源、许可证及还原工具，不含开发源码、私有配置、凭据或自定义域名设置。
+
+## Personal portfolio guidance update
+
+The constant technical-preview banner has been removed. Home, map, and fallback copy now introduce Chen Yili's level/gameplay design focus and the four projects. Credits and licenses remain available under the existing credits section. Only HTML and its primary stylesheet changed; gameplay JavaScript, models, coordinates, environment and licenses are unchanged.
+
+This release uses a reproducible Vite HTML/CSS-only incremental build. The same pipeline reproduces the previously deployed baseline HTML/CSS byte-for-byte before building changed inputs; unchanged runtime outputs are reused exactly. The attempted full build was memory-limited (exit 137), not passed. No browser, device or GPU acceptance is claimed.

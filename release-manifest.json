@@ -2,8 +2,8 @@
   "baseline_archive_sha256": "47ead0992116c8e5bc760b89229c2a1103f0e785033cbca1fbbb72e4472e6254",
   "baseline_commit": "93b16facda9ed4abc903ba749b4e88e4f8ab7afd",
   "delta": {
-    "bytes": 29049687,
-    "file_count": 55,
+    "bytes": 29057293,
+    "file_count": 56,
     "parts": [
       {
         "bytes": 8388608,
@@ -18,18 +18,18 @@
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part02",
-        "sha256": "253c12ebe66cb54bb57893dd928a28ffbf87921c2e06eed5b2655a92f87156f1"
+        "sha256": "f9681208170e8283287d4109a4734a998e72dae80025afbb3fb35063066e3e18"
       },
       {
-        "bytes": 3883863,
+        "bytes": 3891469,
         "path": "preview-delta.zip.part03",
-        "sha256": "84830be9632d528ef0c462781d742fc25482882e81d59d92351b0498c85dabc6"
+        "sha256": "207cd190282e40c414a91299c9e5b5f4308737759b8cd123b7b4f296ef215edc"
       }
     ],
-    "sha256": "57d8e12bc5c80d8a0a3679a6d4899847634c44ae280a46bb339a7280c244790e"
+    "sha256": "0dce080434e5e17e680281e4bb85e0d3f8ce15615d7be188bc72b2bc3d453922"
   },
   "output": {
-    "file_count": 1076,
+    "file_count": 1077,
     "files": [
       {
         "bytes": 214624,
@@ -105,6 +105,11 @@
         "bytes": 8525,
         "path": "assets/index-BB1YV1lI.js",
         "sha256": "4f50b58cf5768016c6def8f494cd5a2bc4168ae4a5fd6f72453346fb8eb55b03"
+      },
+      {
+        "bytes": 43861,
+        "path": "assets/index-DiqPWWoi.css",
+        "sha256": "df5b24b4f7485d6a7042f524e4c2c51d39ffd4115f1e448200c20b73ea21c05d"
       },
       {
         "bytes": 43744,
@@ -422,9 +427,9 @@
         "sha256": "440ba08d4876f656a50594143cdb4419d9bc174b5c4cebfb2f2996d659c3a792"
       },
       {
-        "bytes": 68275,
+        "bytes": 68436,
         "path": "index.html",
-        "sha256": "162e6eea6b055854e53d895a22ddd046bd3100011cc7bfd72e2fb7b0b9214887"
+        "sha256": "14aa5becedaa15969ae96e3e43d81722cb343c37e97273b3c987f1b7a3a7f2f6"
       },
       {
         "bytes": 819,
@@ -5412,8 +5417,8 @@
         "sha256": "63b1f6a273cfe4f12382d9e470f8664542e519274da8fcacb11ce2dd12790923"
       }
     ],
-    "total_bytes": 80834154,
-    "tree_sha256": "a94fd2522060e5d25c96488f983d216ef3b9ce28609891fceda389bcf499c169"
+    "total_bytes": 80878176,
+    "tree_sha256": "e4eae71c11dddb9b396b4c2db35e9f2dbd83f235b642abe00c5443e419cdf1d9"
   },
   "removed": [
     ".nojekyll",
