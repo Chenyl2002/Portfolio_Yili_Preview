@@ -76,3 +76,7 @@ Adds 24 event-backed achievements and bounded decorative details (+1,872 triangl
 ## Terminal arrival and explicit career reading
 
 Moves the terminal landing to a verified dry point and associates its prompt with that arrival. Career records now have an explicit marked-read control. Bounded production-method and build checks passed; the inherited final map source-provenance hash exception remains disclosed. Cloud deployment and byte verification do not establish live browser or device acceptance.
+
+## Board surface and readability repair
+
+Increases the twenty-page board texture resolution with bounded lifecycle handling, adjusts local text sampling and the E2 internship label, removes overlapping paving surfaces while linking coverage to actual floor visibility, and relocates one Ancient Temple bench. Nine offline check groups and production build passed. Actual GPU readability and driving still require separate acceptance; the historical aligned-map provenance exception remains disclosed.
