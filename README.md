@@ -68,3 +68,7 @@ Resources open inside the portfolio, including a lazy-loaded 84-page PDF preview
 ## Fourteen reference-style boards
 
 All fourteen added scene boards now use the selected magenta panel, dark-purple supports and block-button visual language. The light career timeline and in-site resource functionality are retained; static assets and configuration are unchanged. Production build, board/geometry/crop checks and source-texture completeness passed. Blender text rendering remains incomplete and is not accepted as visual proof; browser-rendered 3D acceptance has not been performed. No user computer was used.
+
+## Source-backed world details and achievements
+
+Adds 24 event-backed achievements and bounded decorative details (+1,872 triangles, one draw, no new materials or colliders). Render-only Broken Home coplanarity and a shared normal-space alias were corrected while preserving collision and input behavior. Main aggregates and build passed. The extra historical map provenance check still fails on an unchanged career-data hash and reproduces on the prior published baseline. Actual device material appearance remains unaccepted; no reproduced flicker or flicker cure is claimed. Static files and existing licenses remain unchanged.
