@@ -48,3 +48,11 @@ This release uses a reproducible Vite HTML/CSS-only incremental build. The same 
 ## Optional project design views
 
 Adds optional design details inside the Ancient Temple, Moston, and Broken Home project boards. Original project documents remain the evidence source; interactive mechanism explanations are illustrative and do not claim to reproduce the original games. Navigation, placements, grass fix, project/experience separation and licenses are retained. This candidate passed its full production build and static/focused checks. Device acceptance is recorded separately before publication.
+
+## Project source links and board initialization
+
+Source links now open the intended project document pages (2 and 9), and board media initializes only once. Full production build and focused interaction/geometry/projection/placement checks passed. Existing font-coverage and grass source-regex test failures were reproduced on the prior baseline and are not represented as passing. No device/browser acceptance is claimed.
+
+## Font coverage and lossless project images
+
+The consolidated cloud update also adds 14 missing Chinese glyphs while preserving all prior glyph outlines/metrics, and uses pixel-equivalent lossless WebP for two design-view images. Original PNGs and font license remain included. The final candidate passed all 16 offline suites and full production build. Offline checks do not constitute browser/device acceptance; no user computer was used.
