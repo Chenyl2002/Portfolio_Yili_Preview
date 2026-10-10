@@ -2,60 +2,75 @@
   "baseline_archive_sha256": "47ead0992116c8e5bc760b89229c2a1103f0e785033cbca1fbbb72e4472e6254",
   "baseline_commit": "93b16facda9ed4abc903ba749b4e88e4f8ab7afd",
   "delta": {
-    "bytes": 67381797,
-    "file_count": 168,
+    "bytes": 82571563,
+    "file_count": 210,
     "parts": [
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part00",
-        "sha256": "cd7315e3d9824fe101d723114415bb71daa59be2cebabb58dddb0cf4aefd1d09"
+        "sha256": "367f5a64a6d68e53592be7dee3690e358ac462f466a7350f78407930b26b6b1e"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part01",
-        "sha256": "a0a7088a5d17d869bc30cf8b20a70e35a08c17ea6a8baf2329b450e0d90da6fc"
+        "sha256": "e250d7533af539b2cda87b6775ef3145f9ca7d53662e2d2328120113583b472e"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part02",
-        "sha256": "317e540e7cbe41d8dfa2455c9828810290b2ee47d7daaf6a6cfacaf0543d7ca6"
+        "sha256": "e3a2e3f95a351ca45f57d84c3aa560c651a615c11cd3d0a8ec4b641f6efaa857"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part03",
-        "sha256": "8396cace48d64d9b8ccb7b0487606c3e1630fbc20dd7c012afd834ed025b13de"
+        "sha256": "922425ed4714682aab91361c48c661cbe34396064faf463235a1362058e9ad02"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part04",
-        "sha256": "1812c7efaee03cc88ed430f697f18dbebe90379a4de77cdb79d68d7de470676d"
+        "sha256": "8debf6785857f82e277151523f3950bb51d083749d0840e01ab758538669c5b4"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part05",
-        "sha256": "f502a29ac51aacabe985228523f1d64fcdbc343318db0206eeb2a87d899dc384"
+        "sha256": "c0cc0a8cb8cf0003ca7d7b54e10359de83d3a5a9152f6209a4bf6d4444136880"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part06",
-        "sha256": "0abac2a72c7206ddf5fbe3f525b5286c6664d7f4a318ca06c3ac3500885dfaea"
+        "sha256": "5358fd623a917eb3da87d678c8c0ba0102d40715f3b60ca5b009a92b1c98249c"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part07",
-        "sha256": "c28f584e734c2df608d4a9a49006991cf42dae4f76b41d71992f8e2e9287a3df"
+        "sha256": "bc61bcdd9a35b320fd3026e2e90e5cde6a0b16d360dfbdcc7eaaddea8c1e0a42"
       },
       {
-        "bytes": 272933,
+        "bytes": 8388608,
         "path": "preview-delta.zip.part08",
-        "sha256": "f41d75910dd3aa61b16abe40cdac833f4a5e4fbf0fd523ac706a4db941acf14b"
+        "sha256": "4b9a0b0d3f1643a1d875a4a2e412232654dc55dee5a57e535c1a8c69ecfbb7e5"
+      },
+      {
+        "bytes": 7074091,
+        "path": "preview-delta.zip.part09",
+        "sha256": "dd248d3ddbbd3a9eaa0c1e9465efca662fdd1400c84d44e3f5405da322ba4539"
       }
     ],
-    "sha256": "7fc3ce3ce990b775aae0d7e0fe5a43aaf10b9aa4c904f5d00675a213ba8bbb8f"
+    "sha256": "317a2283db17f7e779ee56fe9121da82effb31f48ffbebad09a03a1177cea470"
   },
   "output": {
-    "file_count": 1189,
+    "file_count": 1231,
     "files": [
+      {
+        "bytes": 8187409,
+        "path": "Portfolio/chen-yili-level-design-collection.pdf",
+        "sha256": "359635304aab87597cd4e7fbfff6e85622d8e50f5b599a1f2eea8defcf8869fe"
+      },
+      {
+        "bytes": 662477,
+        "path": "Portfolio/chen-yili-resume-original.pdf",
+        "sha256": "13b2943fd25adbf2fb13ffd567b9ea8fd00646bcf8a4322df9e205f4c91f2a82"
+      },
       {
         "bytes": 214624,
         "path": "Portfolio/doc-ancient-temple.docx",
@@ -117,9 +132,9 @@
         "sha256": "0eac1cf2c211dfe17c6b95beb1b1f0b9712d93da41a80538db102b15b9cc80a4"
       },
       {
-        "bytes": 4518389,
-        "path": "assets/Game-B00PPhkH.js",
-        "sha256": "d12e144ff4eb6627d0a0d8d89dded1cddd5ad342d7c1078cc0baaf8407742100"
+        "bytes": 4523820,
+        "path": "assets/Game-CiAtc7Pk.js",
+        "sha256": "6bdad715f45e500872604c300756de73c17fe1faccd9c789b84aa3da9bd9fa1d"
       },
       {
         "bytes": 35298,
@@ -127,14 +142,14 @@
         "sha256": "65082188c216c3404631d5086ecdaaad8625a8d7a1e47baebc90171ec90d35c6"
       },
       {
-        "bytes": 8599,
-        "path": "assets/index-BTiR7aYp.js",
-        "sha256": "2d42bec0ad5d9509a64a9627151e2526a9ba6d90edbbc04531302df3f5f40c79"
-      },
-      {
         "bytes": 43861,
         "path": "assets/index-DiqPWWoi.css",
         "sha256": "df5b24b4f7485d6a7042f524e4c2c51d39ffd4115f1e448200c20b73ea21c05d"
+      },
+      {
+        "bytes": 8599,
+        "path": "assets/index-piZrrZZ6.js",
+        "sha256": "85352c0835059dfa72ca6cc4317bb083656df145a67e6b5db1a5eac470fe9b65"
       },
       {
         "bytes": 51440,
@@ -143,8 +158,8 @@
       },
       {
         "bytes": 229997,
-        "path": "assets/rapier-BTlJ-pZT.js",
-        "sha256": "206f7efe523d105a45003e51e9dc74c760d8ed43ee88b94cbcaedae331770d9f"
+        "path": "assets/rapier-BVPm1Dbw.js",
+        "sha256": "ae9fd131dce83a0a350f2aac191e80d47125062f2fffb24b752383c4eafed471"
       },
       {
         "bytes": 1698487,
@@ -152,9 +167,9 @@
         "sha256": "ec7b8411136062877112dfadc856774626173e0dbb3276a6aefc0cafc560a737"
       },
       {
-        "bytes": 35952,
-        "path": "assets/resource-viewer-2QwpPfNK.js",
-        "sha256": "dc68a6a9d0c7d6a4809ed661c5f4372fa4feeba85a106c036d14671728ddcd73"
+        "bytes": 38629,
+        "path": "assets/resource-viewer-CiGZ5Tfh.js",
+        "sha256": "c3e185c579c1e4a69aef782c75858437e163844a868d55eae0e816bf2e3ef48d"
       },
       {
         "bytes": 6615,
@@ -287,9 +302,9 @@
         "sha256": "c36cacc626182792725a8e5dc2442f99ba80d8f95a750a303862ca68229298d4"
       },
       {
-        "bytes": 4373,
+        "bytes": 4490,
         "path": "career/source-excerpts.html",
-        "sha256": "e479e414306e23126b2b225676a20a79c15307e3248b008eb521f3f6b9b7552b"
+        "sha256": "08a7d8e2d53950cc2ec596c8eec9d4e94233fdeb690c1e0c474c93ed3bfae9ce"
       },
       {
         "bytes": 19624,
@@ -350,6 +365,31 @@
         "bytes": 18428,
         "path": "christmas/christmasTreeVisual.glb",
         "sha256": "9c977395d86dd6446ccaa18375595e06b5a47350d7ecd4eda46277df46a0394b"
+      },
+      {
+        "bytes": 362,
+        "path": "contact/bilibili.html",
+        "sha256": "b4fc53051adc762de8e642b1fbd47cd191b54806c95be596cac79216b6c76aaf"
+      },
+      {
+        "bytes": 352,
+        "path": "contact/email.html",
+        "sha256": "2a162e151f72a87f0051319b1cdccf2a81341f0ba37dca662d56cc7d22207912"
+      },
+      {
+        "bytes": 329,
+        "path": "contact/phone.html",
+        "sha256": "2f27fdc6ddf209ca727f2fcec714f83688d2660a9d5c207badc454827710aeda"
+      },
+      {
+        "bytes": 320,
+        "path": "contact/qq.html",
+        "sha256": "c1e07f64b236ed649fcf4dbf83259845a7b58514f33e55e136e065bc8dae5818"
+      },
+      {
+        "bytes": 329,
+        "path": "contact/wechat.html",
+        "sha256": "afba6aaac3533dd8199599727cf57685d64be69ff9d37c79f21209ad9e79e144"
       },
       {
         "bytes": 1489,
@@ -477,9 +517,9 @@
         "sha256": "3647542610d077af7abacc20c82e25dbd264e6c936edeba04a57233e2abe555c"
       },
       {
-        "bytes": 516188,
+        "bytes": 519304,
         "path": "fonts/yili-sans.woff",
-        "sha256": "d2bf5fe169e322598c88ca7a16a7990df5e3315af6992bd84bc8184447dd8c8d"
+        "sha256": "51fb7cc71adc01f2d8950462de1fdc3c95591984b38fe13549dfee0e845374b0"
       },
       {
         "bytes": 722464,
@@ -492,9 +532,9 @@
         "sha256": "8389919d5559ba1fbb8b0d4e094d98b7b6c10d63b60bf03bfa45d33de3babcc7"
       },
       {
-        "bytes": 70030,
+        "bytes": 70396,
         "path": "index.html",
-        "sha256": "a64b89275c03a20e88a25433686f4605998b9852c17616a20f56158a4b251a4a"
+        "sha256": "8199d5146ee87991c50cce57c147205279d6519602885b36289915ed3971161e"
       },
       {
         "bytes": 819,
@@ -2443,6 +2483,181 @@
       },
       {
         "bytes": 146796,
+        "path": "resource-previews/chen-yili-level-design-collection/page-01.jpg",
+        "sha256": "dcaa1916a831d5bfee28b26198eeb986a7e009a678e85921b4f050a9395958ae"
+      },
+      {
+        "bytes": 188458,
+        "path": "resource-previews/chen-yili-level-design-collection/page-02.jpg",
+        "sha256": "c0dd8dc00ab3abfc76eff533de68df3914b94a545f1b60f151fbed7e5c947692"
+      },
+      {
+        "bytes": 276447,
+        "path": "resource-previews/chen-yili-level-design-collection/page-03.jpg",
+        "sha256": "e0edba495230e543f8c0a1cf2e552d09b557ad5148d06d7e159c19a88f4c3092"
+      },
+      {
+        "bytes": 149013,
+        "path": "resource-previews/chen-yili-level-design-collection/page-04.jpg",
+        "sha256": "7b5f7522fd08f0322524b18d9f7feb0a50199f1e6312c5b8d549f4880d7b4264"
+      },
+      {
+        "bytes": 191665,
+        "path": "resource-previews/chen-yili-level-design-collection/page-05.jpg",
+        "sha256": "a8b19604ba9fd6823877a8e3bcaed7ba660a25e3cbe3337ece0b00d63341253e"
+      },
+      {
+        "bytes": 255267,
+        "path": "resource-previews/chen-yili-level-design-collection/page-06.jpg",
+        "sha256": "95830e8a48fd461cd27a6fc3da22909a921890be338b20b08851904a30c441f0"
+      },
+      {
+        "bytes": 267567,
+        "path": "resource-previews/chen-yili-level-design-collection/page-07.jpg",
+        "sha256": "c8a2695e4a246c5eb7cdbd84aabbf8edb87a371298f2530aefc8812b99d4dd10"
+      },
+      {
+        "bytes": 175391,
+        "path": "resource-previews/chen-yili-level-design-collection/page-08.jpg",
+        "sha256": "b685441d3b6787c3cd8db2470b93c1f2096e08d54fe3ac7339ef83c83218cd15"
+      },
+      {
+        "bytes": 208646,
+        "path": "resource-previews/chen-yili-level-design-collection/page-09.jpg",
+        "sha256": "c7e2cf2f04af198edec56440ea736a26f53a4358093701486d54b8cf0597a6db"
+      },
+      {
+        "bytes": 241698,
+        "path": "resource-previews/chen-yili-level-design-collection/page-10.jpg",
+        "sha256": "d4a091c1b359328fb05a0e24bdaa36f8e595cadb1bf9e9a93b78c97b80df895e"
+      },
+      {
+        "bytes": 242277,
+        "path": "resource-previews/chen-yili-level-design-collection/page-11.jpg",
+        "sha256": "cd6c592f899ce99b647f4f516021068168e56932c89ba5b51be8a696608eb03b"
+      },
+      {
+        "bytes": 236208,
+        "path": "resource-previews/chen-yili-level-design-collection/page-12.jpg",
+        "sha256": "2ff0399f4dc239f2088f0d17b54e820b23d969962755377069b41faf269eeb91"
+      },
+      {
+        "bytes": 204827,
+        "path": "resource-previews/chen-yili-level-design-collection/page-13.jpg",
+        "sha256": "d97105a3898c664427b1673ce08a2f08c0c94e51fb66a57a7da3db0597010fe0"
+      },
+      {
+        "bytes": 175127,
+        "path": "resource-previews/chen-yili-level-design-collection/page-14.jpg",
+        "sha256": "9a72ad1000979c39425d4989005bb6c521310c766ea8e5684a9c32756f81ca26"
+      },
+      {
+        "bytes": 62279,
+        "path": "resource-previews/chen-yili-level-design-collection/page-15.jpg",
+        "sha256": "fc690b20ebce5270be6f185b203afe75e702553a0fb7fcaa9ac0988e1ae7844a"
+      },
+      {
+        "bytes": 115229,
+        "path": "resource-previews/chen-yili-level-design-collection/page-16.jpg",
+        "sha256": "d5ccb67097e31d41b2d8f9cd92a551316ba94530f2cd27719dde9be85fa63064"
+      },
+      {
+        "bytes": 291299,
+        "path": "resource-previews/chen-yili-level-design-collection/page-17.jpg",
+        "sha256": "d93813c23a9c49c440b1f32363927a98c0638db456c6e271e2ea70329bd9f158"
+      },
+      {
+        "bytes": 244536,
+        "path": "resource-previews/chen-yili-level-design-collection/page-18.jpg",
+        "sha256": "178fde73be29c7e50cb6008ab29cae6cc5c02fb50eb50fb2ab41cbbfd7a922e3"
+      },
+      {
+        "bytes": 146286,
+        "path": "resource-previews/chen-yili-level-design-collection/page-19.jpg",
+        "sha256": "4cecc220397ce1dbdb3d2804cea9a595b83a51f3af274613e52cd179c85c02ab"
+      },
+      {
+        "bytes": 194016,
+        "path": "resource-previews/chen-yili-level-design-collection/page-20.jpg",
+        "sha256": "d9ccf0234f442c92e7110eada875a3e3cd8f2a40d9a90313e0693d5f52695aea"
+      },
+      {
+        "bytes": 188887,
+        "path": "resource-previews/chen-yili-level-design-collection/page-21.jpg",
+        "sha256": "fa0c981d8c28e4c0db8ab7459c98fec0fd35e8681021de96fc8e256d8163221c"
+      },
+      {
+        "bytes": 199285,
+        "path": "resource-previews/chen-yili-level-design-collection/page-22.jpg",
+        "sha256": "b4bc4fe99989d13922f8179ba6a650ac11a895ed739a4882946ee0789df5b042"
+      },
+      {
+        "bytes": 193683,
+        "path": "resource-previews/chen-yili-level-design-collection/page-23.jpg",
+        "sha256": "2e32dc12ceaab69d1aaed559de5a97122da350cc899c1599fd71d40b4b371de2"
+      },
+      {
+        "bytes": 280559,
+        "path": "resource-previews/chen-yili-level-design-collection/page-24.jpg",
+        "sha256": "e53c6ca4fa369c7c96de3034c8091d5f145b0c6aca6ab64f5dd1d6c7be0d1191"
+      },
+      {
+        "bytes": 216691,
+        "path": "resource-previews/chen-yili-level-design-collection/page-25.jpg",
+        "sha256": "f58385c523aa37174d9cb16668ef3077ec9ecaf865758b23ccd93661e3875e3e"
+      },
+      {
+        "bytes": 266490,
+        "path": "resource-previews/chen-yili-level-design-collection/page-26.jpg",
+        "sha256": "f87e74cd2d7cb481f351c28621dcaec9c99cc586120c2b147a3f9212a40b8306"
+      },
+      {
+        "bytes": 255463,
+        "path": "resource-previews/chen-yili-level-design-collection/page-27.jpg",
+        "sha256": "8611a14c2a9b272f8e77d80e84d4e840c02cc27ef08460b39917e69da2f10257"
+      },
+      {
+        "bytes": 213596,
+        "path": "resource-previews/chen-yili-level-design-collection/page-28.jpg",
+        "sha256": "810b92c3c0cd477ed6af4fc3088d7bf5493983f6a676cc4b1493481352573e82"
+      },
+      {
+        "bytes": 211336,
+        "path": "resource-previews/chen-yili-level-design-collection/page-29.jpg",
+        "sha256": "11c415e1a647174f8ab3af517f1cd4e2296b5a4dcdd53e2569ab35082e86534b"
+      },
+      {
+        "bytes": 213876,
+        "path": "resource-previews/chen-yili-level-design-collection/page-30.jpg",
+        "sha256": "d6f521d32628b4997cb4831ea0476ea7171aa67267a69dba20b1539eb493853e"
+      },
+      {
+        "bytes": 261650,
+        "path": "resource-previews/chen-yili-level-design-collection/page-31.jpg",
+        "sha256": "8ebcd060ef0548b715b57745a21dd932fe647628e7d52b69ff7af89a7be8ede8"
+      },
+      {
+        "bytes": 223190,
+        "path": "resource-previews/chen-yili-level-design-collection/page-32.jpg",
+        "sha256": "16daba08069b22fbac8f78cd00a293d3743b7650de9cd35c7f62099ac3094688"
+      },
+      {
+        "bytes": 64297,
+        "path": "resource-previews/chen-yili-level-design-collection/page-33.jpg",
+        "sha256": "57b4c5ff709f9dee3d470188929dffbd681e1f00c385c47758d34b77543fba74"
+      },
+      {
+        "bytes": 326329,
+        "path": "resource-previews/chen-yili-resume-original/page-1.jpg",
+        "sha256": "dd4d9149796c3cf0152ed0fdc81799dfa0654a3d2f484fa2768ffce4056c0c11"
+      },
+      {
+        "bytes": 390189,
+        "path": "resource-previews/chen-yili-resume-original/page-2.jpg",
+        "sha256": "2ec4e3e5269112babb109ab19e9eddfface061482d91034f48e9c6a3383a2bb9"
+      },
+      {
+        "bytes": 146796,
         "path": "resource-previews/doc-broken-home/page-01.jpg",
         "sha256": "dcaa1916a831d5bfee28b26198eeb986a7e009a678e85921b4f050a9395958ae"
       },
@@ -2852,9 +3067,9 @@
         "sha256": "5cdaf775905df2af88d4da0921c267b54e9d532d4be47adf12c35bd1e463a255"
       },
       {
-        "bytes": 166825,
+        "bytes": 229404,
         "path": "resource-previews/manifest.json",
-        "sha256": "9f9ba8f986f8d76a3ed15fb606083977c68511637440315f9899b6b94f056662"
+        "sha256": "4f56ace214996dca57da9af4992217e5151d63eff71d6328b011d2f8d699f40f"
       },
       {
         "bytes": 306358,
@@ -5782,24 +5997,24 @@
         "sha256": "e143c1357729f0fd83a488b7a1ed1ec912c68c91977921101c89fb173a4ab9a3"
       },
       {
-        "bytes": 1359026,
+        "bytes": 1358750,
         "path": "ui/map/map-day.png",
-        "sha256": "58268bcdf58fc3aa6ecc60d4da85401c128c5d8b32e1f981f3f2d7a9ff7cd6ba"
+        "sha256": "e499cabd85088581ac92d20b8a9e0f1022e122bec35221f23012679e38b6625a"
       },
       {
-        "bytes": 1038124,
+        "bytes": 1037816,
         "path": "ui/map/map-day.webp",
-        "sha256": "37d21ffba34a565a9735842491e1fc34e0592edce559996c4a43d31a47cf7c6e"
+        "sha256": "c19188f284e4f0bb7b1bc575466134913e4169925fbaa2e9008e05d8e5e13a1b"
       },
       {
-        "bytes": 1374497,
+        "bytes": 1374424,
         "path": "ui/map/map-night.png",
-        "sha256": "b448123f388821dc0d67335d580c1da0cc25562251dfa719f202ae5ecbc8ad60"
+        "sha256": "3c596da59e2bb06a7b24178e294e4d88a300d5ad1660528a55e62fa07ec5b4a4"
       },
       {
-        "bytes": 1090558,
+        "bytes": 1090612,
         "path": "ui/map/map-night.webp",
-        "sha256": "afa0e37b34eb0beb82ac173d6bb889b4968a2331501b9bef024849d3ea0bafa5"
+        "sha256": "99a24c5efcab2aa5e692f78a2f03b4f2a6ee98dd648ab002a849668172b0f937"
       },
       {
         "bytes": 24584,
@@ -6002,8 +6217,8 @@
         "sha256": "63b1f6a273cfe4f12382d9e470f8664542e519274da8fcacb11ce2dd12790923"
       }
     ],
-    "total_bytes": 120945269,
-    "tree_sha256": "1c21ac8ab645f596d7a6ab174bd45edda8c9c652e6ba226db92d7f02f8ec1a8e"
+    "total_bytes": 137389083,
+    "tree_sha256": "b62feb0d0c72a6ebfd20f3e1046c5dbce88a7495c1193421ec953e9a0b5a561a"
   },
   "removed": [
     ".nojekyll",
