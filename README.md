@@ -72,3 +72,7 @@ All fourteen added scene boards now use the selected magenta panel, dark-purple 
 ## Source-backed world details and achievements
 
 Adds 24 event-backed achievements and bounded decorative details (+1,872 triangles, one draw, no new materials or colliders). Render-only Broken Home coplanarity and a shared normal-space alias were corrected while preserving collision and input behavior. Main aggregates and build passed. The extra historical map provenance check still fails on an unchanged career-data hash and reproduces on the prior published baseline. Actual device material appearance remains unaccepted; no reproduced flicker or flicker cure is claimed. Static files and existing licenses remain unchanged.
+
+## Terminal arrival and explicit career reading
+
+Moves the terminal landing to a verified dry point and associates its prompt with that arrival. Career records now have an explicit marked-read control. Bounded production-method and build checks passed; the inherited final map source-provenance hash exception remains disclosed. Cloud deployment and byte verification do not establish live browser or device acceptance.
