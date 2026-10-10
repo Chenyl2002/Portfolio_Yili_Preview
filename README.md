@@ -80,3 +80,7 @@ Moves the terminal landing to a verified dry point and associates its prompt wit
 ## Board surface and readability repair
 
 Increases the twenty-page board texture resolution with bounded lifecycle handling, adjusts local text sampling and the E2 internship label, removes overlapping paving surfaces while linking coverage to actual floor visibility, and relocates one Ancient Temple bench. Nine offline check groups and production build passed. Actual GPU readability and driving still require separate acceptance; the historical aligned-map provenance exception remains disclosed.
+
+## Reference UI and TV camera integration
+
+Integrates the selected panel and reference-style control treatments, fitted board framing, in-site resource zoom, refined project geometry and 81-glyph board-control font coverage. The frozen production build contains 1,189 files. Independent source and distribution manifest verification passed. Offline production-method checks and full build are separate from actual browser/device visual acceptance, which remains incomplete. The inherited aligned-map provenance exception remains disclosed. Only this independent preview repository is published; the original portfolio repository and custom domain are unchanged.
