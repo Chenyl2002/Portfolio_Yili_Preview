@@ -60,3 +60,7 @@ The consolidated cloud update also adds 14 missing Chinese glyphs while preservi
 ## Ancient Temple static composition
 
 The temple diorama now includes a source-backed static sword, three seal markers and upper window composition. These 18 non-solid decorative parts illustrate the document's three-seal mechanism; they are not an interactive reconstruction. Focused geometry, composition and full production build checks passed. Visibility varies with camera position: the parking framing crops the top window and the whole-board framing places much of the sword outside the frame. No device/browser acceptance is claimed.
+
+## In-site resource reader and recovery update
+
+Resources open inside the portfolio, including a lazy-loaded 84-page PDF preview reader, source text, explicit unavailable-video panels, and contact copying. Career begins at 2023 and lists the owner-confirmed ByteDance internship first. Loader recovery and the bounded sword-clearance correction are included. Original source files and licenses are retained. Offline aggregates and production build passed; browser/device focus, touch, history and rendered layout acceptance remain unverified. The selected light timeline and project-board visual treatments are integrated in the production candidate. Browser-rendered fidelity acceptance remains incomplete.
