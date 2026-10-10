@@ -56,3 +56,7 @@ Source links now open the intended project document pages (2 and 9), and board m
 ## Font coverage and lossless project images
 
 The consolidated cloud update also adds 14 missing Chinese glyphs while preserving all prior glyph outlines/metrics, and uses pixel-equivalent lossless WebP for two design-view images. Original PNGs and font license remain included. The final candidate passed all 16 offline suites and full production build. Offline checks do not constitute browser/device acceptance; no user computer was used.
+
+## Ancient Temple static composition
+
+The temple diorama now includes a source-backed static sword, three seal markers and upper window composition. These 18 non-solid decorative parts illustrate the document's three-seal mechanism; they are not an interactive reconstruction. Focused geometry, composition and full production build checks passed. Visibility varies with camera position: the parking framing crops the top window and the whole-board framing places much of the sword outside the frame. No device/browser acceptance is claimed.
