@@ -64,3 +64,7 @@ The temple diorama now includes a source-backed static sword, three seal markers
 ## In-site resource reader and recovery update
 
 Resources open inside the portfolio, including a lazy-loaded 84-page PDF preview reader, source text, explicit unavailable-video panels, and contact copying. Career begins at 2023 and lists the owner-confirmed ByteDance internship first. Loader recovery and the bounded sword-clearance correction are included. Original source files and licenses are retained. Offline aggregates and production build passed; browser/device focus, touch, history and rendered layout acceptance remain unverified. The selected light timeline and project-board visual treatments are integrated in the production candidate. Browser-rendered fidelity acceptance remains incomplete.
+
+## Fourteen reference-style boards
+
+All fourteen added scene boards now use the selected magenta panel, dark-purple supports and block-button visual language. The light career timeline and in-site resource functionality are retained; static assets and configuration are unchanged. Production build, board/geometry/crop checks and source-texture completeness passed. Blender text rendering remains incomplete and is not accepted as visual proof; browser-rendered 3D acceptance has not been performed. No user computer was used.
