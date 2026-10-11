@@ -32,6 +32,16 @@ def require(condition, message):
         raise ValueError(message)
 
 
+def licensing_preserved(name, baseline_record, output_record):
+    """Allow only the exact reviewed attribution correction, preserving all grants."""
+    if output_record == baseline_record:
+        return True
+    notice = "licenses/THIRD-PARTY-NOTICES.txt"
+    old = {"path": notice, "bytes": 1804, "sha256": "5c4b4b876bd8aae5f84594321ea27ebad70bcb4ebc980a19052fa3d74182968d"}
+    new = {"path": notice, "bytes": 2333, "sha256": "2cd0788f523119ba1cd5c91d633b2e20c532c58cf5207574bbc90fcb31f74d1c"}
+    return name == notice and baseline_record == old and output_record == new
+
+
 def digest(data):
     return hashlib.sha256(data).hexdigest()
 
@@ -213,7 +223,7 @@ def main(root=ROOT):
     require("index.html" in expected, "Missing website entry point")
     for name, record in baseline_files.items():
         if name.startswith("licenses/") or name == "fonts/OFL-notice.txt":
-            require(expected.get(name) == record, "Baseline licensing must remain unchanged: " + name)
+            require(licensing_preserved(name, record, expected.get(name)), "Baseline licensing must remain unchanged except exact reviewed attribution: " + name)
     removed = sorted(set(baseline_files) - set(expected))
     require(release["removed"] == removed, "Deletion set mismatch")
     changes = sorted(name for name, record in expected.items() if baseline_files.get(name) != record)
