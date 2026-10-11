@@ -2,7 +2,7 @@
   "baseline_archive_sha256": "47ead0992116c8e5bc760b89229c2a1103f0e785033cbca1fbbb72e4472e6254",
   "baseline_commit": "93b16facda9ed4abc903ba749b4e88e4f8ab7afd",
   "delta": {
-    "bytes": 82571563,
+    "bytes": 82580467,
     "file_count": 210,
     "parts": [
       {
@@ -18,45 +18,45 @@
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part02",
-        "sha256": "e3a2e3f95a351ca45f57d84c3aa560c651a615c11cd3d0a8ec4b641f6efaa857"
+        "sha256": "8f98b06af5be47838ec14b6504321671b7db251d5f229e5459c202aeccc8099c"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part03",
-        "sha256": "922425ed4714682aab91361c48c661cbe34396064faf463235a1362058e9ad02"
+        "sha256": "61020845df48db2e28b5d3d2aa6f082cd08fd169a3a741859b8dd492f83698ea"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part04",
-        "sha256": "8debf6785857f82e277151523f3950bb51d083749d0840e01ab758538669c5b4"
+        "sha256": "12190f8d511db89836c6ffb39b99387d540b816dfade62aa54ddb77d1524a89c"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part05",
-        "sha256": "c0cc0a8cb8cf0003ca7d7b54e10359de83d3a5a9152f6209a4bf6d4444136880"
+        "sha256": "bdfd9c3acc5d47475a3a5f5772079f78d1ca15cf1ce827098abef5c690e46956"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part06",
-        "sha256": "5358fd623a917eb3da87d678c8c0ba0102d40715f3b60ca5b009a92b1c98249c"
+        "sha256": "1e968ed367ecdc9637cc4e81fb32c143ac14fd3f33d858313a20d65fa16ae74c"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part07",
-        "sha256": "bc61bcdd9a35b320fd3026e2e90e5cde6a0b16d360dfbdcc7eaaddea8c1e0a42"
+        "sha256": "c7896f1e69a4449c2ddc5f0a2b489920e77b9e039000e93b0fc7c1d56e821bc2"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part08",
-        "sha256": "4b9a0b0d3f1643a1d875a4a2e412232654dc55dee5a57e535c1a8c69ecfbb7e5"
+        "sha256": "f01f6b9d920474134d8cb9d198cf28974f76c8e068b57854903c4912ebd75b3c"
       },
       {
-        "bytes": 7074091,
+        "bytes": 7082995,
         "path": "preview-delta.zip.part09",
-        "sha256": "dd248d3ddbbd3a9eaa0c1e9465efca662fdd1400c84d44e3f5405da322ba4539"
+        "sha256": "2a6248887a928f280506ed199f52b10927dc764206841ad0ae7028ff5e24430f"
       }
     ],
-    "sha256": "317a2283db17f7e779ee56fe9121da82effb31f48ffbebad09a03a1177cea470"
+    "sha256": "0b8cf41e99beccc4fde1e5ebea362e3c40a333e51b19260f3a1681a038f39d38"
   },
   "output": {
     "file_count": 1231,
@@ -92,9 +92,9 @@
         "sha256": "bc4284cba383644b3fab7f8dde165c4f8b6c767075c9daaa6b045c5496664217"
       },
       {
-        "bytes": 47125,
+        "bytes": 47579,
         "path": "Portfolio/project-sources.json",
-        "sha256": "441ed0f139cfe96a2a6c17c1a8e633640edc2b6fb692767ff6d5d815edcdaae8"
+        "sha256": "3c454c0dc01ead1eaf33cf462052930604a35fad40b990ef6243db0eb6ba5932"
       },
       {
         "bytes": 209319,
@@ -132,24 +132,24 @@
         "sha256": "0eac1cf2c211dfe17c6b95beb1b1f0b9712d93da41a80538db102b15b9cc80a4"
       },
       {
-        "bytes": 4523820,
-        "path": "assets/Game-CiAtc7Pk.js",
-        "sha256": "6bdad715f45e500872604c300756de73c17fe1faccd9c789b84aa3da9bd9fa1d"
+        "bytes": 36012,
+        "path": "assets/Game-DJaqhGZX.css",
+        "sha256": "f7d8ed6a1fbe4fa9e4b96b55c48314c801234577d8ffae0ae33cc570201d8ede"
       },
       {
-        "bytes": 35298,
-        "path": "assets/Game-T-2RlA87.css",
-        "sha256": "65082188c216c3404631d5086ecdaaad8625a8d7a1e47baebc90171ec90d35c6"
+        "bytes": 4536780,
+        "path": "assets/Game-TYHj39id.js",
+        "sha256": "36c27be97028d82180489af6ab1f0e9f51e0d3adc4e37ee524dda2bc2deb091d"
+      },
+      {
+        "bytes": 8599,
+        "path": "assets/index-BOs3IzUl.js",
+        "sha256": "74ca0c7996db61d83bb6f548dfbeb102b331ec5b781b734c8db846930f744503"
       },
       {
         "bytes": 43861,
         "path": "assets/index-DiqPWWoi.css",
         "sha256": "df5b24b4f7485d6a7042f524e4c2c51d39ffd4115f1e448200c20b73ea21c05d"
-      },
-      {
-        "bytes": 8599,
-        "path": "assets/index-piZrrZZ6.js",
-        "sha256": "85352c0835059dfa72ca6cc4317bb083656df145a67e6b5db1a5eac470fe9b65"
       },
       {
         "bytes": 51440,
@@ -158,8 +158,8 @@
       },
       {
         "bytes": 229997,
-        "path": "assets/rapier-BVPm1Dbw.js",
-        "sha256": "ae9fd131dce83a0a350f2aac191e80d47125062f2fffb24b752383c4eafed471"
+        "path": "assets/rapier-a5yXLS3j.js",
+        "sha256": "17ff3a56e74141daddaba9134822cfd0cc56558739b43efcf09d9ccb38278952"
       },
       {
         "bytes": 1698487,
@@ -167,14 +167,14 @@
         "sha256": "ec7b8411136062877112dfadc856774626173e0dbb3276a6aefc0cafc560a737"
       },
       {
-        "bytes": 38629,
-        "path": "assets/resource-viewer-CiGZ5Tfh.js",
-        "sha256": "c3e185c579c1e4a69aef782c75858437e163844a868d55eae0e816bf2e3ef48d"
+        "bytes": 43610,
+        "path": "assets/resource-viewer-96R1jjuc.js",
+        "sha256": "a6d963fa33a75e1aa1d9cae972bfc16611079b9f6735d067cfe82a2f190d0d6d"
       },
       {
-        "bytes": 6615,
-        "path": "assets/resource-viewer-DMl9AWC9.css",
-        "sha256": "8ea7bdb07d287f3611125df3103e5be9b27855887b8ed5cf590ff263980422e8"
+        "bytes": 6961,
+        "path": "assets/resource-viewer-DZJMfJGj.css",
+        "sha256": "f01e5ef6519f9823e24dc872146069c8c602063ff0c36e454472a4db80e63523"
       },
       {
         "bytes": 488840,
@@ -302,9 +302,9 @@
         "sha256": "c36cacc626182792725a8e5dc2442f99ba80d8f95a750a303862ca68229298d4"
       },
       {
-        "bytes": 4490,
+        "bytes": 5412,
         "path": "career/source-excerpts.html",
-        "sha256": "08a7d8e2d53950cc2ec596c8eec9d4e94233fdeb690c1e0c474c93ed3bfae9ce"
+        "sha256": "3d59727971e27af5181d09a2f7f925622deecbbfe66cb361927264e1360d66e1"
       },
       {
         "bytes": 19624,
@@ -532,9 +532,9 @@
         "sha256": "8389919d5559ba1fbb8b0d4e094d98b7b6c10d63b60bf03bfa45d33de3babcc7"
       },
       {
-        "bytes": 70396,
+        "bytes": 70842,
         "path": "index.html",
-        "sha256": "8199d5146ee87991c50cce57c147205279d6519602885b36289915ed3971161e"
+        "sha256": "cde1ccdf4440e8d77166c60c33a2029a2003cca443a4a3f3f5d67ed2accdcd83"
       },
       {
         "bytes": 819,
@@ -2412,9 +2412,9 @@
         "sha256": "3b5eef8066c4d2a2e0ffb8eb7a2da9c83a6f855f1fde26cb2cb03735b6bffd32"
       },
       {
-        "bytes": 100682,
+        "bytes": 102384,
         "path": "projects/images/icebreaking-airship.webp",
-        "sha256": "a3bf377465a26ac66af9b7341bd8c02fa0b00d93e9ec5dbc614cbc5de70815f8"
+        "sha256": "fbd66db11a99a61955e6178aa3955256d6fbce84693b1e9bdf43cf54b89d6900"
       },
       {
         "bytes": 83894,
@@ -2427,9 +2427,9 @@
         "sha256": "ddce37dc84d0bf3883838a4435c36bcfdd4246d72d194e0efcc192f38f09f083"
       },
       {
-        "bytes": 95968,
+        "bytes": 97370,
         "path": "projects/images/icebreaking-route.webp",
-        "sha256": "709519daca834bd291977910e7805a9a94476d192842b51aff70168cc211f671"
+        "sha256": "b44fca1f93360d041d90191164b7b9d572ec570b1dd7ac5fa1924643f79992bf"
       },
       {
         "bytes": 68072,
@@ -6217,8 +6217,8 @@
         "sha256": "63b1f6a273cfe4f12382d9e470f8664542e519274da8fcacb11ce2dd12790923"
       }
     ],
-    "total_bytes": 137389083,
-    "tree_sha256": "b62feb0d0c72a6ebfd20f3e1046c5dbce88a7495c1193421ec953e9a0b5a561a"
+    "total_bytes": 137413010,
+    "tree_sha256": "99ab2b83a4a2dd23aeb8d9ed66997e045d29ee736a32c0766ea1454862b7c29b"
   },
   "removed": [
     ".nojekyll",
