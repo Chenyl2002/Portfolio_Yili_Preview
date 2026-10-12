@@ -2,8 +2,8 @@
   "baseline_archive_sha256": "47ead0992116c8e5bc760b89229c2a1103f0e785033cbca1fbbb72e4472e6254",
   "baseline_commit": "93b16facda9ed4abc903ba749b4e88e4f8ab7afd",
   "delta": {
-    "bytes": 85532262,
-    "file_count": 287,
+    "bytes": 85536414,
+    "file_count": 289,
     "parts": [
       {
         "bytes": 8388608,
@@ -23,45 +23,45 @@
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part03",
-        "sha256": "df8de432da3042eaaedebed98ec3cab80e227d89dde81e955472da679094b9e0"
+        "sha256": "52c2612b1af69e0e1b0a6bc3f59a5cd52dbfc7baea57f0a6edd184f54a2119a2"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part04",
-        "sha256": "af804cf97eef73803f806cc357cb6835cd52031cf61821f19599206f11edfe66"
+        "sha256": "d7f6e7e3482daedd6ee278ef501239b655f59485bf21c4c4e321ad33436f999f"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part05",
-        "sha256": "f30a83d5001c16adf63227a79c6845dd89a6e9e28b4ef20d0ff379b068fdf790"
+        "sha256": "b1714cf3e900a67f72091bc63a8e0d007ae51f686c7f005069cbea55586208fc"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part06",
-        "sha256": "59618694e7b699302987627bb344d98123b63265cb65dcf5d69e74292c967829"
+        "sha256": "6748708025d13d4369e6b9e9f2e81060440789396bad885b9f2f22a51236235e"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part07",
-        "sha256": "5f7a00317290c22b8ab92ec43d70ab2e6a16b0d4bd7e643003b52d4b94165d02"
+        "sha256": "adfd20ac2394179e7d77153fc5686243c5d65ca6bee6f3494fe249a08aa6fc1a"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part08",
-        "sha256": "4e6c18581954362a5e44dbe1809a1792ee50abf942fbaf5767163cd4cac9b2e5"
+        "sha256": "330f6c41033f898fc80367e08117c16d7d254f0a4f35de12285973a303ae92e3"
       },
       {
         "bytes": 8388608,
         "path": "preview-delta.zip.part09",
-        "sha256": "103f42122315ca6f5bde77377fdd22010ecfa3cf292a6fab2694605175eeaaec"
+        "sha256": "d1cefc3f940a3d4fa3353f61445b5a0b118b3df7d8524c801978e4f340e1a43e"
       },
       {
-        "bytes": 1646182,
+        "bytes": 1650334,
         "path": "preview-delta.zip.part10",
-        "sha256": "29e7018a4d46acbcb6300594c8c70af86d85805e312e39b409692fa576b45918"
+        "sha256": "87155aef695f75d0d7d94a9e9bf7b19504d07f0976032bd120e539e716a5a986"
       }
     ],
-    "sha256": "e7ff814f79429c974d782fbf39bf78862b76d2255e9bddf0c6767d7eb4678189"
+    "sha256": "acba9f767398578e5e8af7e36fa30c6b57e17d28741c2521d26ae4a7c873d507"
   },
   "output": {
     "file_count": 1307,
@@ -2262,14 +2262,14 @@
         "sha256": "6d489af6292662d9e36d34ce49423784984a5f6e41d7b58f49b01264df59fa03"
       },
       {
-        "bytes": 21572,
+        "bytes": 21540,
         "path": "oakTrees/oakTreesReferences-compressed.glb",
-        "sha256": "1161375399b5d1b43a3791107454f60561f09a0eae69e6f561a505dcf70feed5"
+        "sha256": "bcd2c6c9d73d73015cc628998b1dadab9380f11e660f73ac2fb7b64a1fd7d515"
       },
       {
-        "bytes": 19424,
+        "bytes": 19396,
         "path": "oakTrees/oakTreesReferences.glb",
-        "sha256": "620f9bdd3513be3f9eb0f845a361df5db553c70400e80f11b18803221bc9a11f"
+        "sha256": "2fc994b4aba4f0823e7dd9f0c9c8eb5821f6e81dc5304917ce5f9e017ab5520f"
       },
       {
         "bytes": 5188,
@@ -6382,24 +6382,24 @@
         "sha256": "e143c1357729f0fd83a488b7a1ed1ec912c68c91977921101c89fb173a4ab9a3"
       },
       {
-        "bytes": 1359565,
+        "bytes": 1359410,
         "path": "ui/map/map-day.png",
-        "sha256": "c48a9a710a8acaf4d92e2b7073935e098c0875673ee5e722cbcdb55a19048971"
+        "sha256": "dc8b46254ee5262ffae5584b4b944f3dcc7437e22e4d7f6e6d361244360087e1"
       },
       {
-        "bytes": 1038702,
+        "bytes": 1038610,
         "path": "ui/map/map-day.webp",
-        "sha256": "7a38c65ea726d482eb4722a8c9f68921381f10a4b97240a8aff4309d4e181c0b"
+        "sha256": "3dc912090043cc57b97a5f348a7b58c246863ec5beff2c8a2be45b14d9ad4f45"
       },
       {
-        "bytes": 1375837,
+        "bytes": 1375743,
         "path": "ui/map/map-night.png",
-        "sha256": "2b85311456effe7be0e8a0328df58140fd64b02f70880aae2349751eea9d77bb"
+        "sha256": "7805dfe0b6a717dc12117d858a0b83ca124ab352526afa88cc823cc978ce4208"
       },
       {
-        "bytes": 1092148,
+        "bytes": 1091610,
         "path": "ui/map/map-night.webp",
-        "sha256": "323687e837fd5ba6b5b52e2c69925d25ca6d2aebb51cbc88c0f224e5d6166aa7"
+        "sha256": "81c0fdfb1acf077af59f51f35fc4e401cd9ad780aca295945e1cdff66b09cc11"
       },
       {
         "bytes": 24584,
@@ -6602,8 +6602,8 @@
         "sha256": "63b1f6a273cfe4f12382d9e470f8664542e519274da8fcacb11ce2dd12790923"
       }
     ],
-    "total_bytes": 140500824,
-    "tree_sha256": "d55d02e6dbba6d8fd7ad7de4787c73ad49a54c148758bc2fa3d23a2cefbc4184"
+    "total_bytes": 140499885,
+    "tree_sha256": "8742cd7edace0a35f16406799aea0dbbd7a2eb7351236367c1070bf45fe5e3a5"
   },
   "removed": [
     ".nojekyll",
